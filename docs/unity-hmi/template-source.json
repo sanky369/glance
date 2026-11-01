@@ -1,0 +1,19 @@
+{
+  "name": "com.unity.template.hmi",
+  "displayName": "Industry HMI Template",
+  "version": "1.0.4",
+  "remoteTar": "https://download.packages.unity.com/com.unity.template.hmi/-/com.unity.template.hmi-1.0.4.tgz",
+  "integrity": "sha1-OTU4NDI2ZWRjZmJiOGZhM2YxZWQ1ZGFlNzk5ZTMxMmY4MzgyOTgxZg==",
+  "size": 122437005,
+  "renderPipeline": "URP",
+  "buildPlatforms": [
+    "MACOS",
+    "WINDOWS",
+    "EMBEDDEDLINUX"
+  ],
+  "description": "This template demonstrates a functional automotive HMI built in Unity, including a central control screen for the car's setup, an ADAS self-driving visualization, climate control, and separate speed and energy clusters. Explore real-time UI, in-vehicle interaction patterns, and how Unity powers modern in-car experiences.",
+  "verifiedSha1": "958426edcfbb8fa3f1ed5dae799e312f8382981f",
+  "editorVersion": "6000.6.3f1",
+  "cliVersion": "1.0.0-beta.15",
+  "pipelineVersion": "0.9.1-exp.1"
+}

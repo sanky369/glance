@@ -1,0 +1,28 @@
+This template is governed by the Unity Companion License as indicated in the LICENSE.md file. However, the following components are governed by the licenses indicated below:
+
+1. Michroma
+https://fonts.google.com/specimen/Michroma
+
+SIL Open Font License, Version 1.1
+Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
+
+The license is located in the project at /Assets/TextMesh Pro/Fonts/Michroma - OFL.txt
+Also available at: https://openfontlicense.org
+
+2. Inter
+https://fonts.google.com/specimen/Inter
+
+SIL Open Font License, Version 1.1
+Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+
+The license is located in the project at /Assets/TextMesh Pro/Fonts/Inter - OFL.txt
+Also available at: https://openfontlicense.org
+
+3. Liberation Sans
+https://github.com/liberationfonts/liberation-fonts
+
+SIL Open Font License, Version 1.1
+Copyright 2012 Red Hat, Inc., with Reserved Font Name "Liberation"
+
+The license is located in the project at /Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+Also available at: https://openfontlicense.org

@@ -1,0 +1,2572 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a15e7b552ba654f80c15fb69b1ba77, type: 3}
+  m_Name: DataCore
+  m_EditorClassIdentifier: Assembly-CSharp::DataCore
+  activeVehicles:
+  - vehicleId: 1
+    vehicleType: 1
+    splineId: 63
+    distanceAlongSpline: 20.14755
+    currentSpeed: 22.242771
+    desiredSpeed: 47.832237
+    position: {x: 1.9948807, y: 0, z: -35.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 2
+    vehicleType: 0
+    splineId: 63
+    distanceAlongSpline: 37.446476
+    currentSpeed: 19.583948
+    desiredSpeed: 27.919445
+    position: {x: 19.310532, y: 0, z: -35.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 3
+    vehicleType: 1
+    splineId: 63
+    distanceAlongSpline: 57.180305
+    currentSpeed: 17.247122
+    desiredSpeed: 29.87707
+    position: {x: 39.05448, y: 0, z: -35.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 4
+    vehicleType: 1
+    splineId: 29
+    distanceAlongSpline: 27.643448
+    currentSpeed: 16.494164
+    desiredSpeed: 26.00078
+    position: {x: -106.50511, y: 0, z: -40}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 5
+    vehicleType: 1
+    splineId: 10
+    distanceAlongSpline: 0.4675064
+    currentSpeed: 14.323036
+    desiredSpeed: 28.964052
+    position: {x: -32.12725, y: 0, z: 73.58859}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 6
+    vehicleType: 0
+    splineId: 58
+    distanceAlongSpline: 0.33657837
+    currentSpeed: 12.664698
+    desiredSpeed: 21.164124
+    position: {x: 81.583176, y: 0, z: 188}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 7
+    vehicleType: 1
+    splineId: 61
+    distanceAlongSpline: 9.64306
+    currentSpeed: 8.416666
+    desiredSpeed: 22.554174
+    position: {x: -8.523666, y: 0, z: -39.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 8
+    vehicleType: 1
+    splineId: 61
+    distanceAlongSpline: 23.687023
+    currentSpeed: 17.005781
+    desiredSpeed: 49.04234
+    position: {x: 5.534851, y: 0, z: -39.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 9
+    vehicleType: 0
+    splineId: 61
+    distanceAlongSpline: 39.12521
+    currentSpeed: 15.720021
+    desiredSpeed: 17.429565
+    position: {x: 20.993382, y: 0, z: -39.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 10
+    vehicleType: 1
+    splineId: 68
+    distanceAlongSpline: 2.5494711
+    currentSpeed: 32.75187
+    desiredSpeed: 34.243183
+    position: {x: -135.99605, y: 0.0021514893, z: -26.890759}
+    rotation: {x: 0.0009250223, y: -0.056563, z: 0.000052405954, w: 0.9983986}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 11
+    vehicleType: 1
+    splineId: 67
+    distanceAlongSpline: 4.6189876
+    currentSpeed: 17.096746
+    desiredSpeed: 28.248917
+    position: {x: -145.24376, y: 0, z: -30.4886}
+    rotation: {x: 3.45277e-11, y: 0.9286443, z: 8.64324e-11, w: -0.37097147}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 12
+    vehicleType: 1
+    splineId: 56
+    distanceAlongSpline: 9.610457
+    currentSpeed: 33.88576
+    desiredSpeed: 33.88576
+    position: {x: 72.30228, y: 0, z: 184}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 13
+    vehicleType: 1
+    splineId: 99
+    distanceAlongSpline: 82.58829
+    currentSpeed: 23.875765
+    desiredSpeed: 25.428623
+    position: {x: -140.12726, y: 0, z: 56.591843}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 14
+    vehicleType: 0
+    splineId: 83
+    distanceAlongSpline: 6.4315963
+    currentSpeed: 23.407104
+    desiredSpeed: 23.407124
+    position: {x: -140.12726, y: 0, z: 80.38428}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 15
+    vehicleType: 0
+    splineId: 27
+    distanceAlongSpline: 4.154841
+    currentSpeed: 11.053787
+    desiredSpeed: 32.8035
+    position: {x: -130.02397, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 16
+    vehicleType: 1
+    splineId: 62
+    distanceAlongSpline: 0.18685126
+    currentSpeed: 22.274117
+    desiredSpeed: 45.913265
+    position: {x: 81.71624, y: 0, z: -27.999989}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 17
+    vehicleType: 0
+    splineId: 62
+    distanceAlongSpline: 7.1079865
+    currentSpeed: 7.355691
+    desiredSpeed: 34.77994
+    position: {x: 74.80057, y: 0, z: -27.999989}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 18
+    vehicleType: 1
+    splineId: 62
+    distanceAlongSpline: 20.111273
+    currentSpeed: 20.602295
+    desiredSpeed: 39.43132
+    position: {x: 61.78733, y: 0, z: -27.99999}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 19
+    vehicleType: 1
+    splineId: 97
+    distanceAlongSpline: 38.13066
+    currentSpeed: 21.933035
+    desiredSpeed: 42.780766
+    position: {x: -136.12726, y: 0, z: 12.127396}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 20
+    vehicleType: 0
+    splineId: 97
+    distanceAlongSpline: 55.364845
+    currentSpeed: 19.669447
+    desiredSpeed: 19.684254
+    position: {x: -136.12726, y: 0, z: 29.36893}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 21
+    vehicleType: 1
+    splineId: 81
+    distanceAlongSpline: 15.008683
+    currentSpeed: 16.901384
+    desiredSpeed: 38.84826
+    position: {x: -136.12726, y: 0, z: 88.97971}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 22
+    vehicleType: 1
+    splineId: 108
+    distanceAlongSpline: 69.13554
+    currentSpeed: 23.26962
+    desiredSpeed: 23.27819
+    position: {x: 87.872734, y: 0, z: 4.8498974}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 23
+    vehicleType: 1
+    splineId: 60
+    distanceAlongSpline: 25.349766
+    currentSpeed: 28.500193
+    desiredSpeed: 38.3825
+    position: {x: 56.523026, y: 0, z: -31.99999}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 24
+    vehicleType: 1
+    splineId: 60
+    distanceAlongSpline: 68.5002
+    currentSpeed: 23.172686
+    desiredSpeed: 49.333435
+    position: {x: 13.355482, y: 0, z: -31.999994}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 25
+    vehicleType: 1
+    splineId: 27
+    distanceAlongSpline: 46.80974
+    currentSpeed: 22.31631
+    desiredSpeed: 38.62974
+    position: {x: -87.31986, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 26
+    vehicleType: 1
+    splineId: 27
+    distanceAlongSpline: 64.80042
+    currentSpeed: 21.70788
+    desiredSpeed: 34.531986
+    position: {x: -69.31624, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 27
+    vehicleType: 0
+    splineId: 27
+    distanceAlongSpline: 0.029384613
+    currentSpeed: 0.0061846483
+    desiredSpeed: 28.808262
+    position: {x: -134.10336, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 28
+    vehicleType: 0
+    splineId: 110
+    distanceAlongSpline: 35.37676
+    currentSpeed: 25.127596
+    desiredSpeed: 27.99522
+    position: {x: 83.872734, y: 0, z: 38.634644}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 29
+    vehicleType: 0
+    splineId: 110
+    distanceAlongSpline: 61.863216
+    currentSpeed: 25.221817
+    desiredSpeed: 43.607414
+    position: {x: 83.872734, y: 0, z: 12.133575}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 30
+    vehicleType: 1
+    splineId: 110
+    distanceAlongSpline: 79.25376
+    currentSpeed: 25.187641
+    desiredSpeed: 25.790874
+    position: {x: 83.872734, y: 0, z: -5.268896}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 31
+    vehicleType: 0
+    splineId: 81
+    distanceAlongSpline: 34.196804
+    currentSpeed: 20.230312
+    desiredSpeed: 40.181656
+    position: {x: -136.12726, y: 0, z: 108.19403}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 32
+    vehicleType: 0
+    splineId: 81
+    distanceAlongSpline: 51.235386
+    currentSpeed: 17.757647
+    desiredSpeed: 22.410776
+    position: {x: -136.12726, y: 0, z: 125.23566}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 33
+    vehicleType: 0
+    splineId: 81
+    distanceAlongSpline: 72.58921
+    currentSpeed: 17.494438
+    desiredSpeed: 48.41956
+    position: {x: -136.12726, y: 0, z: 146.61075}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 34
+    vehicleType: 1
+    splineId: 108
+    distanceAlongSpline: 16.54093
+    currentSpeed: 8.282693
+    desiredSpeed: 38.554405
+    position: {x: 87.872734, y: 0, z: 57.4861}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 35
+    vehicleType: 0
+    splineId: 108
+    distanceAlongSpline: 29.126987
+    currentSpeed: 20.149313
+    desiredSpeed: 42.118786
+    position: {x: 87.872734, y: 0, z: 44.88095}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 36
+    vehicleType: 1
+    splineId: 108
+    distanceAlongSpline: 48.86736
+    currentSpeed: 24.376408
+    desiredSpeed: 35.078785
+    position: {x: 87.872734, y: 0, z: 25.132904}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 37
+    vehicleType: 1
+    splineId: 7
+    distanceAlongSpline: 11.925921
+    currentSpeed: 24.521627
+    desiredSpeed: 29.335789
+    position: {x: -24.12725, y: 0, z: 85.88936}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 38
+    vehicleType: 1
+    splineId: 7
+    distanceAlongSpline: 32.55666
+    currentSpeed: 25.007494
+    desiredSpeed: 25.007633
+    position: {x: -24.12725, y: 0, z: 106.54193}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 39
+    vehicleType: 1
+    splineId: 7
+    distanceAlongSpline: 73.95231
+    currentSpeed: 25.479473
+    desiredSpeed: 37.242466
+    position: {x: -24.12725, y: 0, z: 147.96443}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 40
+    vehicleType: 0
+    splineId: 73
+    distanceAlongSpline: 9.231893
+    currentSpeed: 25.9281
+    desiredSpeed: 25.928165
+    position: {x: 97.162834, y: 0.0002593994, z: -35.941868}
+    rotation: {x: 0.001957126, y: 0.69286716, z: -0.0018806036, w: 0.72106016}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 41
+    vehicleType: 1
+    splineId: 25
+    distanceAlongSpline: 41.693745
+    currentSpeed: 22.165201
+    desiredSpeed: 35.812298
+    position: {x: -92.440414, y: 0, z: 175.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 42
+    vehicleType: 1
+    splineId: 58
+    distanceAlongSpline: 9.98681
+    currentSpeed: 32.84882
+    desiredSpeed: 32.84882
+    position: {x: 71.91728, y: 0, z: 188}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 43
+    vehicleType: 0
+    splineId: 9
+    distanceAlongSpline: 3.5843635
+    currentSpeed: 12.626257
+    desiredSpeed: 46.054382
+    position: {x: -20.12725, y: 0, z: -22.45554}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 44
+    vehicleType: 1
+    splineId: 9
+    distanceAlongSpline: 21.968811
+    currentSpeed: 21.117266
+    desiredSpeed: 48.742107
+    position: {x: -20.12725, y: 0, z: -4.045433}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 45
+    vehicleType: 0
+    splineId: 9
+    distanceAlongSpline: 51.79381
+    currentSpeed: 15.303964
+    desiredSpeed: 47.057434
+    position: {x: -20.12725, y: 0, z: 25.79403}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 46
+    vehicleType: 1
+    splineId: 58
+    distanceAlongSpline: 0
+    currentSpeed: 17.55227
+    desiredSpeed: 32.628914
+    position: {x: 81.872734, y: 0, z: 188}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 47
+    vehicleType: 1
+    splineId: 63
+    distanceAlongSpline: 75.44091
+    currentSpeed: 17.903044
+    desiredSpeed: 18.302982
+    position: {x: 57.32969, y: 0, z: -35.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 48
+    vehicleType: 0
+    splineId: 9
+    distanceAlongSpline: 88.02522
+    currentSpeed: 15.383129
+    desiredSpeed: 15.383241
+    position: {x: -20.12725, y: 0, z: 62.0623}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 49
+    vehicleType: 0
+    splineId: 14
+    distanceAlongSpline: 5.2818832
+    currentSpeed: 44.74803
+    desiredSpeed: 44.74803
+    position: {x: 86.78694, y: 0, z: -153.61366}
+    rotation: {x: 1.6941154e-10, y: 0.94974196, z: -5.1399285e-10, w: 0.313034}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 50
+    vehicleType: 1
+    splineId: 29
+    distanceAlongSpline: 85.67736
+    currentSpeed: 17.559782
+    desiredSpeed: 17.73656
+    position: {x: -48.436943, y: 0, z: -39.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 51
+    vehicleType: 0
+    splineId: 20
+    distanceAlongSpline: 2.6085567
+    currentSpeed: 44.89269
+    desiredSpeed: 44.89269
+    position: {x: 87.872734, y: 0, z: 171.43166}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 52
+    vehicleType: 1
+    splineId: 10
+    distanceAlongSpline: 74.53671
+    currentSpeed: 16.538065
+    desiredSpeed: 28.5818
+    position: {x: -32.12725, y: 0, z: -0.5390053}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 53
+    vehicleType: 0
+    splineId: 10
+    distanceAlongSpline: 92.92152
+    currentSpeed: 16.65982
+    desiredSpeed: 16.65984
+    position: {x: -32.12725, y: 0, z: -18.958378}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 54
+    vehicleType: 0
+    splineId: 97
+    distanceAlongSpline: 19.95197
+    currentSpeed: 19.244667
+    desiredSpeed: 49.774574
+    position: {x: -136.12726, y: 0, z: -6.0755653}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 55
+    vehicleType: 0
+    splineId: 42
+    distanceAlongSpline: 10.3543625
+    currentSpeed: 17.179768
+    desiredSpeed: 29.53889
+    position: {x: 71.535965, y: 0, z: -143.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 56
+    vehicleType: 0
+    splineId: 71
+    distanceAlongSpline: 0.9380526
+    currentSpeed: 9.342852
+    desiredSpeed: 28.851482
+    position: {x: -148.096, y: 0.0012817383, z: -26.954739}
+    rotation: {x: 0.00039148945, y: 0.99926865, z: 0.010652762, w: -0.036723163}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 57
+    vehicleType: 0
+    splineId: 62
+    distanceAlongSpline: 41.433086
+    currentSpeed: 25.13639
+    desiredSpeed: 41.227432
+    position: {x: 40.447296, y: 0, z: -27.999992}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 58
+    vehicleType: 0
+    splineId: 8
+    distanceAlongSpline: 81.72833
+    currentSpeed: 16.408562
+    desiredSpeed: 45.425884
+    position: {x: -28.12725, y: 0, z: -7.7479362}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 59
+    vehicleType: 0
+    splineId: 8
+    distanceAlongSpline: 96.811195
+    currentSpeed: 16.288557
+    desiredSpeed: 16.288576
+    position: {x: -28.12725, y: 0, z: -22.826027}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 60
+    vehicleType: 0
+    splineId: 99
+    distanceAlongSpline: 23.141996
+    currentSpeed: 23.057463
+    desiredSpeed: 23.057674
+    position: {x: -140.12726, y: 0, z: -2.883667}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 61
+    vehicleType: 0
+    splineId: 27
+    distanceAlongSpline: 23.702442
+    currentSpeed: 22.311623
+    desiredSpeed: 28.541088
+    position: {x: -110.44968, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 62
+    vehicleType: 1
+    splineId: 27
+    distanceAlongSpline: 84.85325
+    currentSpeed: 26.400263
+    desiredSpeed: 30.905598
+    position: {x: -49.24311, y: 0, z: 179.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 63
+    vehicleType: 1
+    splineId: 102
+    distanceAlongSpline: 7.4077682
+    currentSpeed: 24.909758
+    desiredSpeed: 25.112282
+    position: {x: -28.30413, y: 0.0005187988, z: 176.48431}
+    rotation: {x: -0.00012246805, y: 0.9953198, z: 0.0012614875, w: 0.096627876}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 64
+    vehicleType: 0
+    splineId: 129
+    distanceAlongSpline: 26.5515
+    currentSpeed: 22.5032
+    desiredSpeed: 24.063135
+    position: {x: -136.12726, y: 0, z: -115.46626}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 65
+    vehicleType: 0
+    splineId: 129
+    distanceAlongSpline: 50.920273
+    currentSpeed: 19.33019
+    desiredSpeed: 32.879402
+    position: {x: -136.12726, y: 0, z: -91.0795}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 66
+    vehicleType: 0
+    splineId: 129
+    distanceAlongSpline: 68.850464
+    currentSpeed: 19.38319
+    desiredSpeed: 20.146038
+    position: {x: -136.12726, y: 0, z: -73.133484}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 67
+    vehicleType: 1
+    splineId: 81
+    distanceAlongSpline: 87.73469
+    currentSpeed: 17.38797
+    desiredSpeed: 17.388004
+    position: {x: -136.12726, y: 0, z: 161.77339}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 68
+    vehicleType: 1
+    splineId: 25
+    distanceAlongSpline: 84.292305
+    currentSpeed: 24.294493
+    desiredSpeed: 26.864939
+    position: {x: -49.80052, y: 0, z: 175.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 69
+    vehicleType: 1
+    splineId: 25
+    distanceAlongSpline: 59.69158
+    currentSpeed: 20.866705
+    desiredSpeed: 21.446602
+    position: {x: -74.42726, y: 0, z: 175.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 70
+    vehicleType: 0
+    splineId: 131
+    distanceAlongSpline: 30.812546
+    currentSpeed: 16.33237
+    desiredSpeed: 26.057064
+    position: {x: -140.12726, y: 0, z: -111.201675}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 71
+    vehicleType: 1
+    splineId: 131
+    distanceAlongSpline: 49.43054
+    currentSpeed: 14.431469
+    desiredSpeed: 35.882256
+    position: {x: -140.12726, y: 0, z: -92.56963}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 72
+    vehicleType: 1
+    splineId: 131
+    distanceAlongSpline: 0.035883788
+    currentSpeed: 0.009305124
+    desiredSpeed: 44.999218
+    position: {x: -140.12726, y: 0, z: -141.97076}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 73
+    vehicleType: 0
+    splineId: 0
+    distanceAlongSpline: 0.68411064
+    currentSpeed: 26.207714
+    desiredSpeed: 34.793434
+    position: {x: 87.872734, y: 0, z: -42.624187}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 74
+    vehicleType: 0
+    splineId: 0
+    distanceAlongSpline: 7.70472
+    currentSpeed: 8.809038
+    desiredSpeed: 46.05817
+    position: {x: 87.872734, y: 0, z: -49.70039}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 75
+    vehicleType: 1
+    splineId: 0
+    distanceAlongSpline: 20.377266
+    currentSpeed: 16.50495
+    desiredSpeed: 16.913086
+    position: {x: 87.872734, y: 0, z: -62.35513}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 76
+    vehicleType: 0
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 0.044048753
+    desiredSpeed: 40.59598
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 77
+    vehicleType: 1
+    splineId: 8
+    distanceAlongSpline: 12.744303
+    currentSpeed: 17.461811
+    desiredSpeed: 38.280735
+    position: {x: -28.12725, y: 0, z: 61.291733}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 78
+    vehicleType: 1
+    splineId: 10
+    distanceAlongSpline: 36.877342
+    currentSpeed: 19.451344
+    desiredSpeed: 23.798418
+    position: {x: -32.12725, y: 0, z: 37.134212}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 79
+    vehicleType: 0
+    splineId: 61
+    distanceAlongSpline: 62.529484
+    currentSpeed: 15.902963
+    desiredSpeed: 16.24122
+    position: {x: 44.410774, y: 0, z: -39.999992}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 80
+    vehicleType: 0
+    splineId: 61
+    distanceAlongSpline: 86.92445
+    currentSpeed: 15.895055
+    desiredSpeed: 15.895064
+    position: {x: 68.8275, y: 0, z: -39.99999}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 81
+    vehicleType: 1
+    splineId: 42
+    distanceAlongSpline: 33.72238
+    currentSpeed: 25.713787
+    desiredSpeed: 36.876682
+    position: {x: 48.15369, y: 0, z: -143.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 82
+    vehicleType: 1
+    splineId: 115
+    distanceAlongSpline: 7.111507
+    currentSpeed: 27.62704
+    desiredSpeed: 27.709885
+    position: {x: -31.348986, y: 0.00044250488, z: -147.77768}
+    rotation: {x: -0.0014045356, y: -0.7956049, z: -0.0018445596, w: 0.60581154}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 83
+    vehicleType: 1
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 0.010656805
+    desiredSpeed: 42.128777
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 84
+    vehicleType: 1
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.011662498
+    desiredSpeed: 35.36326
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 85
+    vehicleType: 1
+    splineId: 52
+    distanceAlongSpline: 22.350397
+    currentSpeed: 17.94201
+    desiredSpeed: 42.748886
+    position: {x: -56.457695, y: 0, z: -148.00002}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 86
+    vehicleType: 0
+    splineId: 52
+    distanceAlongSpline: 40.417538
+    currentSpeed: 26.727482
+    desiredSpeed: 26.727598
+    position: {x: -74.53624, y: 0, z: -148.00002}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 87
+    vehicleType: 0
+    splineId: 52
+    distanceAlongSpline: 83.71393
+    currentSpeed: 30.324434
+    desiredSpeed: 38.2035
+    position: {x: -117.872055, y: 0, z: -148.00002}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 88
+    vehicleType: 1
+    splineId: 48
+    distanceAlongSpline: 0
+    currentSpeed: 15.316959
+    desiredSpeed: 24.1656
+    position: {x: 97.80873, y: 0, z: 188.01598}
+    rotation: {x: -0.007828888, y: -0.67209667, z: -0.007106772, w: 0.740388}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 1
+  - vehicleId: 89
+    vehicleType: 0
+    splineId: 25
+    distanceAlongSpline: 14.173006
+    currentSpeed: 20.704573
+    desiredSpeed: 24.27823
+    position: {x: -119.962296, y: 0, z: 175.99997}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 90
+    vehicleType: 1
+    splineId: 6
+    distanceAlongSpline: 64.47052
+    currentSpeed: 24.912746
+    desiredSpeed: 41.25678
+    position: {x: -32.12725, y: 0, z: 109.51753}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 91
+    vehicleType: 1
+    splineId: 29
+    distanceAlongSpline: 48.54939
+    currentSpeed: 17.804731
+    desiredSpeed: 21.026161
+    position: {x: -85.57814, y: 0, z: -40}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 92
+    vehicleType: 1
+    splineId: 94
+    distanceAlongSpline: 7.857688
+    currentSpeed: 17.70197
+    desiredSpeed: 17.702093
+    position: {x: -32.12725, y: 0, z: -49.85238}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 93
+    vehicleType: 1
+    splineId: 94
+    distanceAlongSpline: 71.04591
+    currentSpeed: 19.01838
+    desiredSpeed: 47.31885
+    position: {x: -32.12725, y: 0, z: -113.05646}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 94
+    vehicleType: 0
+    splineId: 58
+    distanceAlongSpline: 0
+    currentSpeed: 8.165415
+    desiredSpeed: 15.179152
+    position: {x: 81.872734, y: 0, z: 188}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 95
+    vehicleType: 0
+    splineId: 6
+    distanceAlongSpline: 12.442652
+    currentSpeed: 18.242203
+    desiredSpeed: 28.544146
+    position: {x: -32.12725, y: 0, z: 161.59586}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 96
+    vehicleType: 0
+    splineId: 8
+    distanceAlongSpline: 31.414495
+    currentSpeed: 17.562479
+    desiredSpeed: 23.190002
+    position: {x: -28.12725, y: 0, z: 42.602394}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 97
+    vehicleType: 0
+    splineId: 46
+    distanceAlongSpline: 0.89470565
+    currentSpeed: 21.836578
+    desiredSpeed: 21.836578
+    position: {x: 82.91971, y: 0, z: 180.0266}
+    rotation: {x: 2.9843437e-12, y: 0.7117821, z: -3.0242055e-12, w: 0.7024003}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 98
+    vehicleType: 1
+    splineId: 8
+    distanceAlongSpline: 51.256237
+    currentSpeed: 14.0496645
+    desiredSpeed: 45.512005
+    position: {x: -28.12725, y: 0, z: 22.743484}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 99
+    vehicleType: 1
+    splineId: 73
+    distanceAlongSpline: 0
+    currentSpeed: 0.00010838547
+    desiredSpeed: 47.129837
+    position: {x: 91.85465, y: 0, z: -41.82248}
+    rotation: {x: 0, y: 0.04187879, z: 0, w: 0.99912274}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 100
+    vehicleType: 1
+    splineId: 62
+    distanceAlongSpline: 59.57447
+    currentSpeed: 20.59726
+    desiredSpeed: 48.731674
+    position: {x: 22.289728, y: 0, z: -27.999992}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 101
+    vehicleType: 1
+    splineId: 62
+    distanceAlongSpline: 75.24667
+    currentSpeed: 20.777586
+    desiredSpeed: 20.786102
+    position: {x: 6.6132717, y: 0, z: -27.999994}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 102
+    vehicleType: 1
+    splineId: 9
+    distanceAlongSpline: 37.744957
+    currentSpeed: 16.571135
+    desiredSpeed: 48.8185
+    position: {x: -20.12725, y: 0, z: 11.738373}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 103
+    vehicleType: 0
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 8.732084
+    desiredSpeed: 44.858707
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 104
+    vehicleType: 0
+    splineId: 10
+    distanceAlongSpline: 16.708208
+    currentSpeed: 16.959309
+    desiredSpeed: 33.123165
+    position: {x: -32.12725, y: 0, z: 57.31555}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 105
+    vehicleType: 0
+    splineId: 73
+    distanceAlongSpline: 0
+    currentSpeed: 0.000049714847
+    desiredSpeed: 44.44014
+    position: {x: 91.85465, y: 0, z: -41.82248}
+    rotation: {x: 0, y: 0.04187879, z: 0, w: 0.99912274}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 106
+    vehicleType: 1
+    splineId: 60
+    distanceAlongSpline: 84.53186
+    currentSpeed: 25.729116
+    desiredSpeed: 30.616602
+    position: {x: -2.6929016, y: 0, z: -31.999996}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 107
+    vehicleType: 0
+    splineId: 120
+    distanceAlongSpline: 5.7350307
+    currentSpeed: 23.485748
+    desiredSpeed: 23.486454
+    position: {x: -23.17165, y: 0, z: -30.0065}
+    rotation: {x: -0.00043668365, y: -0.27347097, z: -0.00012415297, w: 0.9618802}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 108
+    vehicleType: 1
+    splineId: 11
+    distanceAlongSpline: 83.060814
+    currentSpeed: 26.337606
+    desiredSpeed: 26.681532
+    position: {x: -24.12725, y: 0, z: 57.07907}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 109
+    vehicleType: 1
+    splineId: 59
+    distanceAlongSpline: 27.06935
+    currentSpeed: 16.1422
+    desiredSpeed: 26.507671
+    position: {x: 8.921173, y: 0, z: 180}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 110
+    vehicleType: 0
+    splineId: 59
+    distanceAlongSpline: 47.79503
+    currentSpeed: 19.45785
+    desiredSpeed: 22.786919
+    position: {x: 29.66769, y: 0, z: 180}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 111
+    vehicleType: 1
+    splineId: 59
+    distanceAlongSpline: 70.465256
+    currentSpeed: 19.238796
+    desiredSpeed: 19.238815
+    position: {x: 52.338776, y: 0, z: 180}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 112
+    vehicleType: 0
+    splineId: 93
+    distanceAlongSpline: 0.68084455
+    currentSpeed: 18.533503
+    desiredSpeed: 18.533522
+    position: {x: -20.12725, y: 0, z: -141.37912}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 113
+    vehicleType: 1
+    splineId: 93
+    distanceAlongSpline: 81.599915
+    currentSpeed: 27.352604
+    desiredSpeed: 31.749025
+    position: {x: -20.12725, y: 0, z: -60.378193}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 114
+    vehicleType: 1
+    splineId: 61
+    distanceAlongSpline: 0.47827816
+    currentSpeed: 26.47892
+    desiredSpeed: 43.417103
+    position: {x: -17.705593, y: 0, z: -39.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 115
+    vehicleType: 0
+    splineId: 57
+    distanceAlongSpline: 61.205345
+    currentSpeed: 20.132114
+    desiredSpeed: 30.404812
+    position: {x: 43.080635, y: 0, z: 176}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 116
+    vehicleType: 0
+    splineId: 57
+    distanceAlongSpline: 80.23183
+    currentSpeed: 20.102997
+    desiredSpeed: 49.521854
+    position: {x: 62.133522, y: 0, z: 176}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 117
+    vehicleType: 1
+    splineId: 57
+    distanceAlongSpline: 96.03035
+    currentSpeed: 20.034058
+    desiredSpeed: 20.034077
+    position: {x: 77.953995, y: 0, z: 176}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 118
+    vehicleType: 0
+    splineId: 63
+    distanceAlongSpline: 0.0058784485
+    currentSpeed: 0.8948259
+    desiredSpeed: 40.241116
+    position: {x: -18.12249, y: 0, z: -35.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 119
+    vehicleType: 0
+    splineId: 63
+    distanceAlongSpline: 4.6907163
+    currentSpeed: 9.288141
+    desiredSpeed: 40.072044
+    position: {x: -13.473118, y: 0, z: -35.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 120
+    vehicleType: 1
+    splineId: 63
+    distanceAlongSpline: 0.48880482
+    currentSpeed: 29.197716
+    desiredSpeed: 30.863937
+    position: {x: -17.695541, y: 0, z: -35.999996}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 121
+    vehicleType: 0
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.000007177233
+    desiredSpeed: 39.570263
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 122
+    vehicleType: 1
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.00000032112416
+    desiredSpeed: 23.689152
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 123
+    vehicleType: 0
+    splineId: 48
+    distanceAlongSpline: 0
+    currentSpeed: 6.6123104
+    desiredSpeed: 38.49529
+    position: {x: 97.80873, y: 0, z: 188.01598}
+    rotation: {x: -0.007828888, y: -0.67209667, z: -0.007106772, w: 0.740388}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 124
+    vehicleType: 0
+    splineId: 10
+    distanceAlongSpline: 2.648037
+    currentSpeed: 6.4061327
+    desiredSpeed: 43.58665
+    position: {x: -32.12725, y: 0, z: 71.3894}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 125
+    vehicleType: 1
+    splineId: 6
+    distanceAlongSpline: 34.08019
+    currentSpeed: 19.167286
+    desiredSpeed: 19.766935
+    position: {x: -32.12725, y: 0, z: 139.92131}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 126
+    vehicleType: 1
+    splineId: 10
+    distanceAlongSpline: 58.44445
+    currentSpeed: 16.178156
+    desiredSpeed: 36.59708
+    position: {x: -32.12725, y: 0, z: 15.548241}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 127
+    vehicleType: 1
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 0.0005327708
+    desiredSpeed: 39.254555
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 128
+    vehicleType: 1
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 0.00006210859
+    desiredSpeed: 16.596193
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 129
+    vehicleType: 0
+    splineId: 129
+    distanceAlongSpline: 5.5656824
+    currentSpeed: 16.319338
+    desiredSpeed: 37.540718
+    position: {x: -136.12726, y: 0, z: -136.45792}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 130
+    vehicleType: 0
+    splineId: 4
+    distanceAlongSpline: 57.14359
+    currentSpeed: 17.155731
+    desiredSpeed: 36.887325
+    position: {x: -28.12725, y: 0, z: 116.85521}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 131
+    vehicleType: 0
+    splineId: 4
+    distanceAlongSpline: 73.61675
+    currentSpeed: 17.41637
+    desiredSpeed: 22.285555
+    position: {x: -28.12725, y: 0, z: 100.36708}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 132
+    vehicleType: 1
+    splineId: 8
+    distanceAlongSpline: 66.12087
+    currentSpeed: 16.442467
+    desiredSpeed: 43.3662
+    position: {x: -28.12725, y: 0, z: 7.8780174}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 133
+    vehicleType: 0
+    splineId: 131
+    distanceAlongSpline: 85.94039
+    currentSpeed: 30.252983
+    desiredSpeed: 47.951206
+    position: {x: -140.12726, y: 0, z: -56.055645}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 134
+    vehicleType: 0
+    splineId: 65
+    distanceAlongSpline: 6.786194
+    currentSpeed: 32.386803
+    desiredSpeed: 35.755634
+    position: {x: -137.24525, y: 0.00033569336, z: -36.291092}
+    rotation: {x: -0.0026822202, y: 0.56314415, z: 0.0018278842, w: 0.8263523}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 135
+    vehicleType: 1
+    splineId: 31
+    distanceAlongSpline: 4.1915116
+    currentSpeed: 15.88497
+    desiredSpeed: 15.884979
+    position: {x: -129.98705, y: 0, z: -36.000004}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 136
+    vehicleType: 0
+    splineId: 42
+    distanceAlongSpline: 52.99506
+    currentSpeed: 19.03268
+    desiredSpeed: 35.31765
+    position: {x: 28.875843, y: 0, z: -143.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 137
+    vehicleType: 0
+    splineId: 42
+    distanceAlongSpline: 69.39915
+    currentSpeed: 17.685432
+    desiredSpeed: 32.848095
+    position: {x: 12.460974, y: 0, z: -143.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 138
+    vehicleType: 0
+    splineId: 42
+    distanceAlongSpline: 87.67428
+    currentSpeed: 25.250391
+    desiredSpeed: 38.86988
+    position: {x: -5.8402634, y: 0, z: -143.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 139
+    vehicleType: 0
+    splineId: 129
+    distanceAlongSpline: 95.35886
+    currentSpeed: 30.146412
+    desiredSpeed: 36.481606
+    position: {x: -136.12726, y: 0, z: -46.602135}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 140
+    vehicleType: 0
+    splineId: 29
+    distanceAlongSpline: 6.0602913
+    currentSpeed: 17.152014
+    desiredSpeed: 18.88285
+    position: {x: -128.10945, y: 0, z: -40.000004}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 141
+    vehicleType: 0
+    splineId: 29
+    distanceAlongSpline: 70.66134
+    currentSpeed: 17.040054
+    desiredSpeed: 48.693874
+    position: {x: -63.4615, y: 0, z: -40}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 142
+    vehicleType: 1
+    splineId: 15
+    distanceAlongSpline: 4.4209914
+    currentSpeed: 21.656178
+    desiredSpeed: 21.810028
+    position: {x: 86.88911, y: 0, z: -146.34183}
+    rotation: {x: 7.390085e-11, y: 0.9373927, z: 1.9890678e-10, w: -0.3482743}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 143
+    vehicleType: 1
+    splineId: 40
+    distanceAlongSpline: 11.120787
+    currentSpeed: 10.619217
+    desiredSpeed: 39.652336
+    position: {x: 70.76974, y: 0, z: -147.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 144
+    vehicleType: 0
+    splineId: 40
+    distanceAlongSpline: 26.643484
+    currentSpeed: 17.18355
+    desiredSpeed: 17.18355
+    position: {x: 55.247795, y: 0, z: -147.99998}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 145
+    vehicleType: 1
+    splineId: 47
+    distanceAlongSpline: 8.194968
+    currentSpeed: 34.283215
+    desiredSpeed: 46.858242
+    position: {x: 83.584175, y: 0.0005187988, z: 184.04749}
+    rotation: {x: 0.0006748314, y: -0.7383791, z: 0.00073886785, w: 0.6743851}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 146
+    vehicleType: 0
+    splineId: 77
+    distanceAlongSpline: 1.4597404
+    currentSpeed: 15.437283
+    desiredSpeed: 18.638817
+    position: {x: 95.95589, y: 0.0019226074, z: -40.38376}
+    rotation: {x: -0.007914721, y: 0.26487005, z: 0.002174098, w: 0.9642492}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 147
+    vehicleType: 1
+    splineId: 60
+    distanceAlongSpline: 49.999603
+    currentSpeed: 29.642517
+    desiredSpeed: 42.9482
+    position: {x: 31.873142, y: 0, z: -31.999992}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 148
+    vehicleType: 0
+    splineId: 6
+    distanceAlongSpline: 0.11554766
+    currentSpeed: 18.196712
+    desiredSpeed: 39.78859
+    position: {x: -32.12725, y: 0, z: 173.90446}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 149
+    vehicleType: 0
+    splineId: 6
+    distanceAlongSpline: 0.6951875
+    currentSpeed: 3.6982858
+    desiredSpeed: 19.614895
+    position: {x: -32.12725, y: 0, z: 173.36456}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 150
+    vehicleType: 1
+    splineId: 6
+    distanceAlongSpline: 83.79738
+    currentSpeed: 26.968876
+    desiredSpeed: 28.296764
+    position: {x: -32.12725, y: 0, z: 90.17077}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 151
+    vehicleType: 0
+    splineId: 97
+    distanceAlongSpline: 7.85614
+    currentSpeed: 7.822039
+    desiredSpeed: 31.870573
+    position: {x: -136.12726, y: 0, z: -18.149086}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 152
+    vehicleType: 1
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.0045681135
+    desiredSpeed: 32.632942
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 153
+    vehicleType: 0
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.0006219118
+    desiredSpeed: 22.10284
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 154
+    vehicleType: 1
+    splineId: 4
+    distanceAlongSpline: 1.6155483
+    currentSpeed: 4.635378
+    desiredSpeed: 26.111938
+    position: {x: -28.12725, y: 0, z: 172.41965}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 155
+    vehicleType: 0
+    splineId: 4
+    distanceAlongSpline: 14.2159605
+    currentSpeed: 16.864466
+    desiredSpeed: 39.597473
+    position: {x: -28.12725, y: 0, z: 159.79353}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 156
+    vehicleType: 0
+    splineId: 4
+    distanceAlongSpline: 32.542458
+    currentSpeed: 18.69052
+    desiredSpeed: 19.733679
+    position: {x: -28.12725, y: 0, z: 141.47237}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 157
+    vehicleType: 1
+    splineId: 7
+    distanceAlongSpline: 96.21923
+    currentSpeed: 31.51396
+    desiredSpeed: 33.376427
+    position: {x: -24.12725, y: 0, z: 170.26639}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 158
+    vehicleType: 0
+    splineId: 59
+    distanceAlongSpline: 3.732604
+    currentSpeed: 15.278991
+    desiredSpeed: 47.500294
+    position: {x: -14.440353, y: 0, z: 180}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 159
+    vehicleType: 0
+    splineId: 59
+    distanceAlongSpline: 13.732604
+    currentSpeed: 6.7069044
+    desiredSpeed: 32.74019
+    position: {x: -4.4044113, y: 0, z: 180}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 160
+    vehicleType: 0
+    splineId: 44
+    distanceAlongSpline: 3.3593657
+    currentSpeed: 34.91371
+    desiredSpeed: 34.91371
+    position: {x: 94.55491, y: 0, z: 184.40968}
+    rotation: {x: -2.002906e-10, y: -0.52620494, z: -1.2394066e-10, w: 0.85035783}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 161
+    vehicleType: 1
+    splineId: 51
+    distanceAlongSpline: 2.749475
+    currentSpeed: 17.39156
+    desiredSpeed: 17.39156
+    position: {x: 82.58515, y: 0.0021209717, z: 188.16469}
+    rotation: {x: 0.0008356941, y: -0.73486686, z: 0.0009055068, w: 0.67821026}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 162
+    vehicleType: 1
+    splineId: 73
+    distanceAlongSpline: 0
+    currentSpeed: 0.000008067002
+    desiredSpeed: 42.40691
+    position: {x: 91.85465, y: 0, z: -41.82248}
+    rotation: {x: 0, y: 0.04187879, z: 0, w: 0.99912274}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 163
+    vehicleType: 0
+    splineId: 9
+    distanceAlongSpline: 66.380325
+    currentSpeed: 15.492451
+    desiredSpeed: 19.364437
+    position: {x: -20.12725, y: 0, z: 40.38501}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 164
+    vehicleType: 0
+    splineId: 5
+    distanceAlongSpline: 91.02548
+    currentSpeed: 21.81274
+    desiredSpeed: 21.815285
+    position: {x: -20.12725, y: 0, z: 165.06734}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 165
+    vehicleType: 0
+    splineId: 57
+    distanceAlongSpline: 44.017483
+    currentSpeed: 24.470423
+    desiredSpeed: 42.387753
+    position: {x: 25.88707, y: 0, z: 176}
+    rotation: {x: 0, y: 0.7071067, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 166
+    vehicleType: 1
+    splineId: 49
+    distanceAlongSpline: 1.4349208
+    currentSpeed: 24.85182
+    desiredSpeed: 28.727962
+    position: {x: 95.94373, y: 0.0018920898, z: 175.59456}
+    rotation: {x: -0.00830746, y: 0.24116799, z: 0.0020645086, w: 0.97044563}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 167
+    vehicleType: 1
+    splineId: 45
+    distanceAlongSpline: 0.36650953
+    currentSpeed: 4.43393
+    desiredSpeed: 17.969238
+    position: {x: 91.856804, y: 0, z: 174.54367}
+    rotation: {x: 5.0320286e-12, y: -0.0055381227, z: 2.7868419e-14, w: 0.9999847}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 168
+    vehicleType: 1
+    splineId: 77
+    distanceAlongSpline: 0
+    currentSpeed: 0.0003221245
+    desiredSpeed: 43.856564
+    position: {x: 95.85674, y: 0, z: -41.823997}
+    rotation: {x: -0.010561109, y: 0.04828933, z: 0.0005106131, w: 0.99877745}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 169
+    vehicleType: 1
+    splineId: 131
+    distanceAlongSpline: 65.840935
+    currentSpeed: 17.798916
+    desiredSpeed: 31.975037
+    position: {x: -140.12726, y: 0, z: -76.15668}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 170
+    vehicleType: 0
+    splineId: 94
+    distanceAlongSpline: 51.057457
+    currentSpeed: 15.041072
+    desiredSpeed: 22.740093
+    position: {x: -32.12725, y: 0, z: -93.05771}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 171
+    vehicleType: 0
+    splineId: 4
+    distanceAlongSpline: 95.02448
+    currentSpeed: 17.518688
+    desiredSpeed: 17.53175
+    position: {x: -28.12725, y: 0, z: 78.95691}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 172
+    vehicleType: 1
+    splineId: 94
+    distanceAlongSpline: 88.533554
+    currentSpeed: 25.759033
+    desiredSpeed: 31.495134
+    position: {x: -32.12725, y: 0, z: -130.56177}
+    rotation: {x: 0, y: 1, z: 0, w: 0}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 173
+    vehicleType: 0
+    splineId: 54
+    distanceAlongSpline: 5.303574
+    currentSpeed: 15.921882
+    desiredSpeed: 24.738953
+    position: {x: -39.42309, y: 0, z: -144.00002}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 174
+    vehicleType: 1
+    splineId: 54
+    distanceAlongSpline: 17.9155
+    currentSpeed: 15.551718
+    desiredSpeed: 15.551727
+    position: {x: -52.031006, y: 0, z: -144.00002}
+    rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 175
+    vehicleType: 1
+    splineId: 91
+    distanceAlongSpline: 1.7758896
+    currentSpeed: 15.045311
+    desiredSpeed: 15.0453205
+    position: {x: -148.46234, y: 0.0021209717, z: -143.65073}
+    rotation: {x: -0.0013382699, y: -0.83777624, z: -0.0020533954, w: 0.5460082}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 176
+    vehicleType: 0
+    splineId: 71
+    distanceAlongSpline: 0
+    currentSpeed: 0.0025413698
+    desiredSpeed: 49.909203
+    position: {x: -148.11285, y: 0, z: -26.017601}
+    rotation: {x: 0.00053826725, y: 0.9986476, z: 0.010559732, w: -0.05090463}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 177
+    vehicleType: 1
+    splineId: 67
+    distanceAlongSpline: 0
+    currentSpeed: 0.0000034917948
+    desiredSpeed: 43.687634
+    position: {x: -144.11125, y: 0, z: -26.16}
+    rotation: {x: 0, y: 0.9990096, z: 0, w: -0.044495028}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 178
+    vehicleType: 1
+    splineId: 84
+    distanceAlongSpline: 8.95716
+    currentSpeed: 40.68794
+    desiredSpeed: 44.96236
+    position: {x: -140.01105, y: 0.00035095215, z: -142.95178}
+    rotation: {x: 0.0023556491, y: -0.02500598, z: 0.0000589239, w: 0.9996845}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 179
+    vehicleType: 0
+    splineId: 131
+    distanceAlongSpline: 2.7823696
+    currentSpeed: 11.755117
+    desiredSpeed: 25.942806
+    position: {x: -140.12726, y: 0, z: -139.24391}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  - vehicleId: 180
+    vehicleType: 1
+    splineId: 131
+    distanceAlongSpline: 12.78237
+    currentSpeed: 9.446657
+    desiredSpeed: 25.517315
+    position: {x: -140.12726, y: 0, z: -129.25317}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    isChangingLanes: 0
+    laneChangeProgress: 0
+    targetSplineId: 0
+    targetDistanceAlongSpline: 0
+    justRespawned: 0
+  activePedestrians:
+  - pedestrianId: 1
+    splineId: 0
+    distanceAlongSpline: 27.507416
+    currentSpeed: 1.6314423
+    position: {x: 79.2832, y: 0.32617188, z: -19.20602}
+    rotation: {x: 0.0148595255, y: 0.75823396, z: -0.017291706, w: 0.65158385}
+  - pedestrianId: 2
+    splineId: 1
+    distanceAlongSpline: 32.23959
+    currentSpeed: 1.9121035
+    position: {x: 101.27316, y: 0.33909607, z: -21.748623}
+    rotation: {x: -0.006617283, y: 0.9709626, z: 0.02704112, w: 0.23760606}
+  - pedestrianId: 3
+    splineId: 2
+    distanceAlongSpline: 28.668205
+    currentSpeed: 1.7002885
+    position: {x: 104.564575, y: 0.32632446, z: -44.94152}
+    rotation: {x: 0.0011572216, y: 0.9982327, z: 0.020748727, w: -0.05567457}
+  - pedestrianId: 4
+    splineId: 3
+    distanceAlongSpline: 21.063734
+    currentSpeed: 1.2492728
+    position: {x: 102.686935, y: 0.33000183, z: -23.067467}
+    rotation: {x: 9.073388e-12, y: 0.87523955, z: -1.641835e-11, w: 0.4836898}
+  - pedestrianId: 5
+    splineId: 4
+    distanceAlongSpline: 18.39423
+    currentSpeed: 1.0909474
+    position: {x: -154.11353, y: 0.33000183, z: -140.47943}
+    rotation: {x: 5.2899794e-12, y: 0.13736886, z: -7.336333e-13, w: 0.99052}
+  - pedestrianId: 6
+    splineId: 5
+    distanceAlongSpline: 21.457663
+    currentSpeed: 1.2726362
+    position: {x: -132.55045, y: 0.33000183, z: -137.32643}
+    rotation: {x: 2.0954427e-11, y: 0.32525137, z: -7.207336e-12, w: 0.94562757}
+  - pedestrianId: 7
+    splineId: 6
+    distanceAlongSpline: 20.021935
+    currentSpeed: 1.1874857
+    position: {x: -130.50357, y: 0.33000183, z: -159.53784}
+    rotation: {x: 6.5722206e-12, y: 0.8348125, z: -9.965902e-12, w: 0.5505344}
+  - pedestrianId: 8
+    splineId: 7
+    distanceAlongSpline: 18.72518
+    currentSpeed: 1.1105758
+    position: {x: -132.07578, y: 0.33000183, z: -138.89748}
+    rotation: {x: 3.86457e-12, y: 0.79876256, z: -5.1307114e-12, w: 0.60164636}
+  - pedestrianId: 9
+    splineId: 8
+    distanceAlongSpline: 20.737944
+    currentSpeed: 1.2299501
+    position: {x: -37.899395, y: 0.33000183, z: -137.66544}
+    rotation: {x: 1.5759512e-11, y: 0.25969812, z: -4.2381263e-12, w: 0.9656899}
+  - pedestrianId: 10
+    splineId: 9
+    distanceAlongSpline: 25.676098
+    currentSpeed: 1.5228298
+    position: {x: -15.799506, y: 0.3290558, z: -135.69978}
+    rotation: {x: 0.006622963, y: 0.68034214, z: -0.006148528, w: 0.7328389}
+  - pedestrianId: 11
+    splineId: 10
+    distanceAlongSpline: 21.761183
+    currentSpeed: 1.2906377
+    position: {x: -12.592323, y: 0.33000183, z: -159.7045}
+    rotation: {x: 1.0431147e-11, y: 0.909601, z: -2.2836509e-11, w: 0.41548303}
+  - pedestrianId: 12
+    splineId: 11
+    distanceAlongSpline: 19.611624
+    currentSpeed: 1.1631498
+    position: {x: -14.992167, y: 0.33000183, z: -138.94931}
+    rotation: {x: 5.6474946e-12, y: 0.82203096, z: -8.1525585e-12, w: 0.5694428}
+  - pedestrianId: 13
+    splineId: 12
+    distanceAlongSpline: 28.441738
+    currentSpeed: 1.6868567
+    position: {x: -36.54942, y: 0.32592773, z: 196.58197}
+    rotation: {x: -0.010586144, y: 0.761454, z: 0.012439351, w: 0.6480131}
+  - pedestrianId: 14
+    splineId: 13
+    distanceAlongSpline: 33.591366
+    currentSpeed: 1.9922762
+    position: {x: -14.665499, y: 0.3416443, z: 192.64012}
+    rotation: {x: -0.0018819803, y: 0.99079925, z: 0.013851695, w: 0.13461637}
+  - pedestrianId: 15
+    splineId: 14
+    distanceAlongSpline: 33.589737
+    currentSpeed: 1.9921792
+    position: {x: -14.885153, y: 0.3416443, z: 170.40404}
+    rotation: {x: -0.008354343, y: -0.80209094, z: -0.011223645, w: 0.59703803}
+  - pedestrianId: 16
+    splineId: 15
+    distanceAlongSpline: 26.51866
+    currentSpeed: 1.5728011
+    position: {x: -11.167711, y: 0.32810974, z: 192.01656}
+    rotation: {x: 0.00041626333, y: 0.99952596, z: -0.015719658, w: 0.026467877}
+  - pedestrianId: 17
+    splineId: 16
+    distanceAlongSpline: 25.874514
+    currentSpeed: 1.5345969
+    position: {x: 78.978065, y: 0.32887268, z: 196.76288}
+    rotation: {x: 0.007524147, y: 0.68276227, z: -0.0070317932, w: 0.73056805}
+  - pedestrianId: 18
+    splineId: 17
+    distanceAlongSpline: 31.178032
+    currentSpeed: 1.8491439
+    position: {x: 101.17759, y: 0.33546448, z: 195.34067}
+    rotation: {x: -0.017949706, y: 0.9214584, z: 0.04288446, w: 0.38568532}
+  - pedestrianId: 19
+    splineId: 18
+    distanceAlongSpline: 20.032473
+    currentSpeed: 1.1881096
+    position: {x: 101.509125, y: 0.33000183, z: 172.46133}
+    rotation: {x: 6.595011e-12, y: 0.83516884, z: -1.0014564e-11, w: 0.5499937}
+  - pedestrianId: 20
+    splineId: 19
+    distanceAlongSpline: 21.639074
+    currentSpeed: 1.2833953
+    position: {x: 103.289955, y: 0.33000183, z: 192.86986}
+    rotation: {x: 1.02504324e-11, y: 0.9032878, z: -2.1581195e-11, w: 0.42903516}
+  - pedestrianId: 21
+    splineId: 20
+    distanceAlongSpline: 19.020306
+    currentSpeed: 1.1280801
+    position: {x: 77.9349, y: 0.33000183, z: -139.70384}
+    rotation: {x: 7.364641e-12, y: 0.16139176, z: -1.2043812e-12, w: 0.98689044}
+  - pedestrianId: 22
+    splineId: 21
+    distanceAlongSpline: 29.88131
+    currentSpeed: 1.7722366
+    position: {x: 100.97604, y: 0.32925415, z: -135.99655}
+    rotation: {x: -0.019606518, y: 0.7236192, z: 0.020573324, w: 0.68961406}
+  - pedestrianId: 23
+    splineId: 22
+    distanceAlongSpline: 22.662004
+    currentSpeed: 1.3440657
+    position: {x: 104.17409, y: 0.33000183, z: -159.83086}
+    rotation: {x: 9.998341e-12, y: 0.95940065, z: -3.4010007e-11, w: 0.28204682}
+  - pedestrianId: 24
+    splineId: 23
+    distanceAlongSpline: 30.587893
+    currentSpeed: 1.8141422
+    position: {x: 104.25391, y: 0.33255005, z: -140.7344}
+    rotation: {x: 0.014384707, y: 0.9680872, z: 0.057170454, w: -0.24358127}
+  - pedestrianId: 25
+    splineId: 24
+    distanceAlongSpline: 23.383057
+    currentSpeed: 1.3868294
+    position: {x: -153.49298, y: 0.32998657, z: 196.41025}
+    rotation: {x: 0.0007072443, y: 0.66854256, z: -0.0006357938, w: 0.7436733}
+  - pedestrianId: 26
+    splineId: 25
+    distanceAlongSpline: 32.51788
+    currentSpeed: 1.9286094
+    position: {x: -130.71, y: 0.3397522, z: 193.93732}
+    rotation: {x: -0.0051259273, y: 0.9771849, z: 0.023739547, w: 0.21099722}
+  - pedestrianId: 27
+    splineId: 26
+    distanceAlongSpline: 28.397114
+    currentSpeed: 1.6842108
+    position: {x: -127.39119, y: 0.3258667, z: 171.10847}
+    rotation: {x: 0.0011086299, y: 0.997228, z: 0.015179316, w: -0.07283312}
+  - pedestrianId: 28
+    splineId: 27
+    distanceAlongSpline: 24.896076
+    currentSpeed: 1.4765673
+    position: {x: -127.356026, y: 0.32957458, z: 192.31888}
+    rotation: {x: 0.00029590275, y: 0.9984186, z: -0.005278725, w: 0.05596708}
+  - pedestrianId: 29
+    splineId: 28
+    distanceAlongSpline: 20.983803
+    currentSpeed: 1.2445312
+    position: {x: -153.87051, y: 0.33000183, z: -21.391136}
+    rotation: {x: 1.741052e-11, y: 0.27992678, z: -5.076627e-12, w: 0.9600214}
+  - pedestrianId: 30
+    splineId: 29
+    distanceAlongSpline: 28.683111
+    currentSpeed: 1.7011728
+    position: {x: -131.24539, y: 0.32635498, z: -19.897419}
+    rotation: {x: -0.013858906, y: 0.7515322, z: 0.015796205, w: 0.65936166}
+  - pedestrianId: 31
+    splineId: 30
+    distanceAlongSpline: 23.123533
+    currentSpeed: 1.371439
+    position: {x: -127.632675, y: 0.33000183, z: -43.911823}
+    rotation: {x: 0.000027334152, y: 0.9979333, z: -0.00042451246, w: 0.06425644}
+  - pedestrianId: 32
+    splineId: 31
+    distanceAlongSpline: 31.082157
+    currentSpeed: 1.8434576
+    position: {x: -128.10681, y: 0.33502197, z: -24.80968}
+    rotation: {x: 0.017062165, y: 0.9350929, z: 0.04544694, w: -0.3510624}
+  - pedestrianId: 33
+    splineId: 32
+    distanceAlongSpline: 32.633675
+    currentSpeed: 1.9354783
+    position: {x: -13.725519, y: 0.3400116, z: -24.973713}
+    rotation: {x: -0.012424188, y: -0.84021604, z: -0.019268438, w: 0.54176694}
+  - pedestrianId: 34
+    splineId: 33
+    distanceAlongSpline: 22.409065
+    currentSpeed: 1.3290641
+    position: {x: -12.016136, y: 0.33000183, z: -43.791927}
+    rotation: {x: 1.05447205e-11, y: 0.9454993, z: -3.061821e-11, w: 0.32562408}
+  - pedestrianId: 35
+    splineId: 34
+    distanceAlongSpline: 30.816956
+    currentSpeed: 1.8277283
+    position: {x: -14.868888, y: 0.33374023, z: -20.365108}
+    rotation: {x: -0.024766235, y: 0.888416, z: 0.048270423, w: 0.455822}
+  - pedestrianId: 36
+    splineId: 35
+    distanceAlongSpline: 29.049793
+    currentSpeed: 1.7229187
+    position: {x: -36.4382, y: 0.32714844, z: -19.501629}
+    rotation: {x: -0.0167831, y: 0.73986423, z: 0.018469937, w: 0.67229325}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f1ffeffede6924a32a4c36fe3b9233d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _carData: {fileID: 11400000, guid: 0b62ce60efdc942a08c2ff37e28f2636, type: 2}
+  - tickPrefab: {instanceID: 0}
+  - numberPrefab: {instanceID: 0}
+  - _arm: {instanceID: 0}
+  - _speedText: {instanceID: 0}
+  - lastTickPrefab: {instanceID: 0}
+  - lastNumberPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

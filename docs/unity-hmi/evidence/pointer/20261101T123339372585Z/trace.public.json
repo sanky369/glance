@@ -1,0 +1,193 @@
+[
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 21,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer begin",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 2199,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "var t=System.Type.GetType(\"UnityEditor.PlayModeView,UnityEditor\"); var size=(UnityEngine.Vector2)t.GetMethod(\"GetMainPlayModeViewTargetSize\",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).Invoke(null,null); var p=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,UnityEngine.Object.FindObjectsByType<Modules.Menus.Scripts.SceneSwitcherButton>(UnityEngine.FindObjectsSortMode.None).Single(b=>b.Scene.ToString()==\"BodyControl\").transform.position); return new { x=p.x/size.x*1280f, y=(1f-p.y/size.y)*720f };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "x": 251.15799,
+          "y": 666.6666
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "251.15799",
+        "y": "666.6666",
+        "end_x": "251.15799",
+        "end_y": "666.6666",
+        "duration": "0.12",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 212.5032,
+          "y": 28.0740948
+        },
+        "end": {
+          "x": 212.5032,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 7417,
+        "position": {
+          "x": 212.5032,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 21,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer end",
+      "parameters": {},
+      "result": {
+        "active": false,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 7417,
+        "position": {
+          "x": 212.5032,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  }
+]

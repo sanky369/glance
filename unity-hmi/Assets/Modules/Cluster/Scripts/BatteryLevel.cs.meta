@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9af82e25e68a9462f95841110e14d16b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _carData: {fileID: 11400000, guid: 0b62ce60efdc942a08c2ff37e28f2636, type: 2}
+  - _batteryText: {instanceID: 0}
+  - _batteryImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

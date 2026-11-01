@@ -1,0 +1,177 @@
+{
+    "version": 1,
+    "name": "CinemachineCamera",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "77c9bcb2-2875-49b4-baeb-415a71fa093d",
+            "actions": [
+                {
+                    "name": "RotateCameraX",
+                    "type": "Value",
+                    "id": "caa1d7f3-cd68-494a-b96a-87e7745b7fac",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "RotateCameraY",
+                    "type": "Value",
+                    "id": "191ba65d-263f-46a1-9242-db78101f730a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "9ae8c572-6961-4561-9e4a-4c6c9fd0d65f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "7ae7cb1e-212d-498b-927e-f80348923bae",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraX",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Modifier",
+                    "id": "29334054-c084-4245-969d-c23947e9deb5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Modifier",
+                    "id": "65b4f7a8-2f0e-48f6-a7ab-0583f5149e8d",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Binding",
+                    "id": "9d4183e0-9599-4863-a8c2-2556e39e59ff",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Binding",
+                    "id": "8889c08f-8bcb-488e-b04d-71aec677cdfa",
+                    "path": "<Touchscreen>/delta/x",
+                    "interactions": "",
+                    "processors": "Scale(factor=0.5)",
+                    "groups": "",
+                    "action": "RotateCameraX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "a79d1baa-2dea-4ad9-8a4e-5ea9b4b388be",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraY",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Modifier",
+                    "id": "80f0d1a9-61a0-4708-bf28-7679907f4374",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Modifier",
+                    "id": "ea448a3f-e0ab-4f0e-87a7-5afa3b04f5d2",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Binding",
+                    "id": "192a1bee-ffa1-4ae9-b940-f7be8a834ab6",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateCameraY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Binding",
+                    "id": "aea23433-f244-4d30-895a-8040a5af5b4a",
+                    "path": "<Touchscreen>/delta/y",
+                    "interactions": "",
+                    "processors": "Scale(factor=0.5)",
+                    "groups": "",
+                    "action": "RotateCameraY",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "f8079b00-500b-4c6b-adeb-ffb972273864",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca23b82f-f0f8-4bb0-a7c2-31d4f9a45ee8",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

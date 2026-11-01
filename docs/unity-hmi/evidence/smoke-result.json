@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-01T11:25:34Z",
+  "template": "com.unity.template.hmi@1.0.4",
+  "editor": "6000.6.3f1",
+  "cli": "1.0.0-beta.15",
+  "pipeline": "0.9.1-exp.1",
+  "project": "unity-hmi",
+  "cloudLinked": false,
+  "screensVisuallyVerified": [
+    "BodyControl",
+    "HVAC",
+    "ADAS"
+  ],
+  "screenNavigationMethod": "sample SceneSwitcherUI.LoadScreenInMainViewport API; not pointer input",
+  "pointerAutomationVerified": false,
+  "pointerObservation": "CLI simulate_pointer commands returned success, but did not switch the active scene while Application.isFocused was false. Needs further investigation before agent trials.",
+  "frameProof": {
+    "bodyControl": {
+      "state": "met",
+      "met": true,
+      "timedOut": false,
+      "member": "UnityEngine.Time.frameCount",
+      "op": "changed",
+      "value": 897,
+      "initialValue": 891,
+      "elapsedMs": 106,
+      "framesObserved": 2
+    },
+    "adas": {
+      "state": "met",
+      "met": true,
+      "timedOut": false,
+      "member": "UnityEngine.Time.frameCount",
+      "op": "changed",
+      "value": 18668,
+      "initialValue": 18661,
+      "elapsedMs": 105,
+      "framesObserved": 2
+    }
+  },
+  "console": {
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "log": 0
+    },
+    "groundTruth": {
+      "sampledUtc": "2026-11-01T11:25:34.618309Z",
+      "ageMs": 27,
+      "compilationFailed": false,
+      "compiling": false,
+      "consoleErrors": 0,
+      "consoleWarnings": 0,
+      "consoleLogs": 0,
+      "seeded": true
+    }
+  }
+}

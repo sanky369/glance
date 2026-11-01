@@ -1,0 +1,1504 @@
+[
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "BodyControl",
+          "driver": 16,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer begin",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 0,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "var t=System.Type.GetType(\"UnityEditor.PlayModeView,UnityEditor\"); var size=(UnityEngine.Vector2)t.GetMethod(\"GetMainPlayModeViewTargetSize\",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).Invoke(null,null); var p=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,UnityEngine.Object.FindObjectsByType<Modules.Menus.Scripts.SceneSwitcherButton>(UnityEngine.FindObjectsSortMode.None).Single(b=>b.Scene.ToString()==\"BodyControl\").transform.position); return new { x=p.x/size.x*1280f, y=(1f-p.y/size.y)*720f };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "x": 251.15799,
+          "y": 666.6666
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "251.15799",
+        "y": "666.6666",
+        "end_x": "251.15799",
+        "end_y": "666.6666",
+        "duration": "0.12",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 212.5032,
+          "y": 28.0740948
+        },
+        "end": {
+          "x": 212.5032,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 302,
+        "position": {
+          "x": 212.5032,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "BodyControl",
+          "driver": 16,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "capture game_view",
+      "parameters": {
+        "source": "screen",
+        "save_path": "Screenshots/pointer-before.png"
+      },
+      "result": {
+        "width": 1280,
+        "height": 720,
+        "encoding": "png",
+        "bytes": 209541,
+        "source": "screen",
+        "savedPath": "Assets/Screenshots/pointer-before.png"
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "var t=System.Type.GetType(\"UnityEditor.PlayModeView,UnityEditor\"); var size=(UnityEngine.Vector2)t.GetMethod(\"GetMainPlayModeViewTargetSize\",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).Invoke(null,null); var p=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,UnityEngine.Object.FindObjectsByType<Modules.Menus.Scripts.SceneSwitcherButton>(UnityEngine.FindObjectsSortMode.None).Single(b=>b.Scene.ToString()==\"HVAC\").transform.position); return new { x=p.x/size.x*1280f, y=(1f-p.y/size.y)*720f };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "x": 493.131134,
+          "y": 666.6666
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "493.131134",
+        "y": "666.6666",
+        "end_x": "493.131134",
+        "end_y": "666.6666",
+        "duration": "0.12",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 417.235168,
+          "y": 28.0740948
+        },
+        "end": {
+          "x": 417.235168,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 636,
+        "position": {
+          "x": 417.235168,
+          "y": 28.0740948
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 16,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "capture game_view",
+      "parameters": {
+        "source": "screen",
+        "save_path": "Screenshots/pointer-climate.png"
+      },
+      "result": {
+        "width": 1280,
+        "height": 720,
+        "encoding": "png",
+        "bytes": 232554,
+        "source": "screen",
+        "savedPath": "Assets/Screenshots/pointer-climate.png"
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 16,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "var t=System.Type.GetType(\"UnityEditor.PlayModeView,UnityEditor\"); var size=(UnityEngine.Vector2)t.GetMethod(\"GetMainPlayModeViewTargetSize\",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).Invoke(null,null); var p=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,UnityEngine.Object.FindObjectsByType<Modules.Menus.Scripts.TemperatureSelectorWidget>(UnityEngine.FindObjectsSortMode.None).OrderBy(w=>w.transform.position.x).First().GetComponentInChildren<Modules.Menus.Scripts.SelectorHandle>().transform.position); return new { x=p.x/size.x*1280f, y=(1f-p.y/size.y)*720f };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "x": 72.31216,
+          "y": 579.3333
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 16,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "72.31216",
+        "y": "579.3333",
+        "end_x": "100.31216",
+        "end_y": "579.3333",
+        "duration": "0.5",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 61.1828651,
+          "y": 74.04538
+        },
+        "end": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 1116,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 17,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 17,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "72.31216",
+        "y": "579.3333",
+        "end_x": "100.31216",
+        "end_y": "579.3333",
+        "duration": "0.5",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 61.1828651,
+          "y": 74.04538
+        },
+        "end": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 1387,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 18,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 18,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "72.31216",
+        "y": "579.3333",
+        "end_x": "100.31216",
+        "end_y": "579.3333",
+        "duration": "0.5",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 61.1828651,
+          "y": 74.04538
+        },
+        "end": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 1658,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 19,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 19,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "72.31216",
+        "y": "579.3333",
+        "end_x": "100.31216",
+        "end_y": "579.3333",
+        "duration": "0.5",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 61.1828651,
+          "y": 74.04538
+        },
+        "end": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 1928,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 20,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 20,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer gesture",
+      "parameters": {
+        "x": "72.31216",
+        "y": "579.3333",
+        "end_x": "100.31216",
+        "end_y": "579.3333",
+        "duration": "0.5",
+        "width": "1280",
+        "height": "720"
+      },
+      "result": {
+        "queued": true,
+        "targetWidth": 1083,
+        "targetHeight": 379,
+        "start": {
+          "x": 61.1828651,
+          "y": 74.04538
+        },
+        "end": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "glance.pointer status",
+      "parameters": {},
+      "result": {
+        "active": true,
+        "busy": false,
+        "pressed": false,
+        "queuedFrame": 2199,
+        "position": {
+          "x": 84.87349,
+          "y": 74.04538
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 21,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 21,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "script eval",
+      "parameters": {
+        "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name, driver=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().LeftTemperature, passenger=UnityEngine.Resources.FindObjectsOfTypeAll<Modules.CarData>().Single().RightTemperature };"
+      },
+      "result": {
+        "output": null,
+        "diagnostics": [],
+        "success": true,
+        "result": {
+          "scene": "HVAC",
+          "driver": 21,
+          "passenger": 15
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "capture game_view",
+      "parameters": {
+        "source": "screen",
+        "save_path": "Screenshots/pointer-driver-21.png"
+      },
+      "result": {
+        "width": 1280,
+        "height": 720,
+        "encoding": "png",
+        "bytes": 231198,
+        "source": "screen",
+        "savedPath": "Assets/Screenshots/pointer-driver-21.png"
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "success": true,
+    "command": "command",
+    "data": {
+      "command": "console get",
+      "parameters": {},
+      "result": {
+        "entries": [
+          {
+            "seq": 1,
+            "timestampUtc": "2026-11-01T12:25:23.603216Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "ExecuteCommandByName: No command named 'glance.pointer' is available. Run 'unity command' to list the commands this instance exposes.",
+            "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer:CommandNotFound (Unity.Pipeline.BasePipelineServer/RawCommandMiss) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/BasePipelineServer.cs:3034)\nUnity.Pipeline.BasePipelineServer:ResolveRawCommand (System.Collections.Generic.IReadOnlyList`1<string>,Unity.Pipeline.Commands.CommandIndex) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/BasePipelineServer.cs:2971)\nUnity.Pipeline.Commands.DefaultCommandExecutor:Bind (Unity.Pipeline.Commands.CommandRequest,Newtonsoft.Json.Linq.JObject&) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandExecutor/DefaultCommandExecutor.cs:61)\nUnity.Pipeline.Commands.DefaultCommandExecutor:Execute (Unity.Pipeline.Commands.CommandRequest) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandExecutor/DefaultCommandExecutor.cs:27)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__148:MoveNext () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/BasePipelineServer.cs:2462)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int>:SetResult (int)\nUnity.Pipeline.MaxLengthStream/<ReadAsync>d__6:MoveNext () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/MaxLengthStream.cs:46)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+            "seeded": false
+          },
+          {
+            "seq": 2,
+            "timestampUtc": "2026-11-01T12:26:19.404836Z",
+            "level": "error",
+            "logType": "Assert",
+            "message": "Assertion failed",
+            "stackTrace": "\nUnityEditor.EditorApplication:Internal_PlayModeStateChanged (UnityEditor.PlayModeStateChange) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:551)\n",
+            "seeded": true
+          },
+          {
+            "seq": 3,
+            "timestampUtc": "2026-11-01T12:26:38.95569Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(55,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 4,
+            "timestampUtc": "2026-11-01T12:26:38.955749Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(56,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 5,
+            "timestampUtc": "2026-11-01T12:26:38.955758Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(57,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 6,
+            "timestampUtc": "2026-11-01T12:26:38.955774Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(58,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 7,
+            "timestampUtc": "2026-11-01T12:26:38.95578Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(59,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 8,
+            "timestampUtc": "2026-11-01T12:26:38.955794Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(60,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 9,
+            "timestampUtc": "2026-11-01T12:26:38.955799Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Assets/Glance/Editor/GlancePointerCommands.cs(61,14): error CS7036: There is no argument given that corresponds to the required parameter 'description' of 'CliArgAttribute.CliArgAttribute(string, string)'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 10,
+            "timestampUtc": "2026-11-01T12:27:07.306102Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "All compiler errors have to be fixed before you can enter playmode!",
+            "stackTrace": "UnityEditor.SceneView:ShowCompileErrorNotification () (at /Users/bokken/build/output/unity/unity/Editor/Mono/SceneView/SceneView.cs:4533)\n",
+            "seeded": false
+          },
+          {
+            "seq": 11,
+            "timestampUtc": "2026-11-01T12:27:20.324917Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(41,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 12,
+            "timestampUtc": "2026-11-01T12:27:20.324971Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,78): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 13,
+            "timestampUtc": "2026-11-01T12:27:20.32499Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 14,
+            "timestampUtc": "2026-11-01T12:27:20.325011Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapIntersectionEntries.cs(42,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 15,
+            "timestampUtc": "2026-11-01T12:27:20.325024Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 16,
+            "timestampUtc": "2026-11-01T12:27:20.32503Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 17,
+            "timestampUtc": "2026-11-01T12:27:20.325209Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 18,
+            "timestampUtc": "2026-11-01T12:27:20.325218Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 19,
+            "timestampUtc": "2026-11-01T12:27:20.325229Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/AlignRightTurnEndpoints.cs(43,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 20,
+            "timestampUtc": "2026-11-01T12:27:20.325239Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,70): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 21,
+            "timestampUtc": "2026-11-01T12:27:20.325247Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 22,
+            "timestampUtc": "2026-11-01T12:27:20.325269Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/UnusedAssetCleanup/AddressablesProbe.cs(63,38): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 23,
+            "timestampUtc": "2026-11-01T12:28:16.685878Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 24,
+            "timestampUtc": "2026-11-01T12:28:16.686079Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 25,
+            "timestampUtc": "2026-11-01T12:28:16.686101Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(41,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 26,
+            "timestampUtc": "2026-11-01T12:28:16.686109Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,78): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 27,
+            "timestampUtc": "2026-11-01T12:28:16.686121Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 28,
+            "timestampUtc": "2026-11-01T12:28:16.686136Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 29,
+            "timestampUtc": "2026-11-01T12:28:16.686142Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 30,
+            "timestampUtc": "2026-11-01T12:28:16.686253Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapIntersectionEntries.cs(42,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 31,
+            "timestampUtc": "2026-11-01T12:28:16.686273Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,70): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 32,
+            "timestampUtc": "2026-11-01T12:28:16.686279Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 33,
+            "timestampUtc": "2026-11-01T12:28:16.68629Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/AlignRightTurnEndpoints.cs(43,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 34,
+            "timestampUtc": "2026-11-01T12:28:16.6863Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/UnusedAssetCleanup/AddressablesProbe.cs(63,38): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 35,
+            "timestampUtc": "2026-11-01T12:29:46.84647Z",
+            "level": "error",
+            "logType": "Error",
+            "message": "Command 'glance.pointer begin' failed: The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data",
+            "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.Commands.DefaultCommandQueue:InvokeDirect (Unity.Pipeline.Commands.CommandContext,Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandQueue/DefaultCommandQueue.cs:495)\nUnity.Pipeline.Commands.DefaultCommandQueue/<>c__DisplayClass19_0:<Invoke>b__1 () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/CommandExecution/CommandQueue/DefaultCommandQueue.cs:409)\nUnity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:342)\nUnity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:285)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:251)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Library/PackageCache/com.unity.pipeline@363b8bb9e91d/Runtime/Common/Dispatcher.cs:266)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)\n",
+            "seeded": false
+          },
+          {
+            "seq": 36,
+            "timestampUtc": "2026-11-01T12:31:24.274784Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 37,
+            "timestampUtc": "2026-11-01T12:31:24.274858Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SmoothIntersectionTurns.cs(43,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 38,
+            "timestampUtc": "2026-11-01T12:31:24.27488Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 39,
+            "timestampUtc": "2026-11-01T12:31:24.274893Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/FlattenSplineKnots.cs(21,20): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 40,
+            "timestampUtc": "2026-11-01T12:31:24.274902Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(41,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 41,
+            "timestampUtc": "2026-11-01T12:31:24.274922Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,78): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 42,
+            "timestampUtc": "2026-11-01T12:31:24.274927Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapRoadSplinesToIntersections.cs(111,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 43,
+            "timestampUtc": "2026-11-01T12:31:24.275088Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/SnapIntersectionEntries.cs(42,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 44,
+            "timestampUtc": "2026-11-01T12:31:24.275116Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,70): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 45,
+            "timestampUtc": "2026-11-01T12:31:24.275131Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Scripts/RoadSystem/Editor/RoadNetworkSettingsWindow.cs(59,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 46,
+            "timestampUtc": "2026-11-01T12:31:24.275146Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/AlignRightTurnEndpoints.cs(43,19): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+            "stackTrace": "",
+            "seeded": false
+          },
+          {
+            "seq": 47,
+            "timestampUtc": "2026-11-01T12:31:24.275177Z",
+            "level": "warn",
+            "logType": "Warning",
+            "message": "Assets/Editor/UnusedAssetCleanup/AddressablesProbe.cs(63,38): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.",
+            "stackTrace": "",
+            "seeded": false
+          }
+        ],
+        "cursor": 47,
+        "session": "453641518f6947ddb63d4e4134ac2b31",
+        "returned": 47,
+        "dropped": false,
+        "reset": false,
+        "counts": {
+          "error": 11,
+          "warn": 36,
+          "log": 0
+        },
+        "groundTruth": {
+          "sampledUtc": "2026-11-01T12:32:21.944541Z",
+          "ageMs": 6,
+          "compilationFailed": false,
+          "compiling": false,
+          "consoleErrors": 0,
+          "consoleWarnings": 0,
+          "consoleLogs": 0,
+          "seeded": true
+        }
+      },
+      "target": {
+        "host": "127.0.0.1",
+        "port": 7800,
+        "projectPath": "<GLANCE_ROOT>/unity-hmi"
+      }
+    },
+    "errors": [],
+    "warnings": []
+  }
+]

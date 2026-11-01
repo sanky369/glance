@@ -1,0 +1,31 @@
+# Unity's generated files stay inside the isolated HMI project.
+/unity-hmi/[Ll]ibrary/
+/unity-hmi/[Tt]emp/
+/unity-hmi/[Oo]bj/
+/unity-hmi/[Ll]ogs/
+/unity-hmi/[Uu]ser[Ss]ettings/
+/unity-hmi/[Bb]uild/
+/unity-hmi/[Bb]uilds/
+/unity-hmi/[Mm]emoryCaptures/
+/unity-hmi/[Rr]ecordings/
+/unity-hmi/.vs/
+/unity-hmi/.idea/
+/unity-hmi/*.csproj
+/unity-hmi/*.sln
+/unity-hmi/*.slnx
+/unity-hmi/*.user
+/unity-hmi/*.pidb
+/unity-hmi/*.booproj
+/unity-hmi/*.unityproj
+/unity-hmi/*.log
+/unity-hmi/*.tmp
+
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Keep original machine-specific traces local; publish redacted copies.
+/docs/unity-hmi/evidence/**/trace.json
+__pycache__/
+*.pyc

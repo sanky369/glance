@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f26541b577c45f8ab9becf388359264, type: 3}
+  m_Name: ThemeData
+  m_EditorClassIdentifier: Assembly-CSharp::Modules.ThemeData
+  _selectedSchemeIndex: 0
+  availableSchemes:
+  - uiColor: {r: 0.9032574, g: 0.9379315, b: 0.9622642, a: 1}
+    adasLinesColor: {r: 2.1426995, g: 2.280909, b: 2.3782842, a: 1}
+    carMaterial: {fileID: 2100000, guid: 0ea2fff20c141c846990fb3ec6e2dedf, type: 2}
+  - uiColor: {r: 0.8018868, g: 0.76681286, b: 0.60898006, a: 1}
+    adasLinesColor: {r: 1.7176472, g: 1.7176472, b: 1.7176472, a: 0}
+    carMaterial: {fileID: 2100000, guid: b1a96611cc0bcca41b12234e24dfad11, type: 2}
+  - uiColor: {r: 0.6603774, g: 0.63857245, b: 0.63857245, a: 1}
+    adasLinesColor: {r: 1.177711, g: 1.177711, b: 1.177711, a: 1}
+    carMaterial: {fileID: 2100000, guid: 863253d2098c98a438d25b3958e8693c, type: 2}
+  - uiColor: {r: 0.28, g: 0.68, b: 0.82, a: 1}
+    adasLinesColor: {r: 0.5568628, g: 1.3568628, b: 1.6392157, a: 1}
+    carMaterial: {fileID: 2100000, guid: 686c3795b609471db5fe6798271527d1, type: 2}
+  - uiColor: {r: 1, g: 0.23113209, b: 0.23113209, a: 1}
+    adasLinesColor: {r: 2, g: 0.15951969, b: 0.084905624, a: 1}
+    carMaterial: {fileID: 2100000, guid: 855b64c9f398b624b8646baa8464031c, type: 2}
+  - uiColor: {r: 0.26312745, g: 0.45883977, b: 0.764151, a: 1}
+    adasLinesColor: {r: 0.5254902, g: 0.91764706, b: 1.5294118, a: 1}
+    carMaterial: {fileID: 2100000, guid: 26cfbc3e007949b49e35d5395c76810f, type: 2}
+  - uiColor: {r: 0.9433962, g: 0.5829477, b: 0.90805817, a: 1}
+    adasLinesColor: {r: 0.6385682, g: 0.4481132, b: 1, a: 1}
+    carMaterial: {fileID: 2100000, guid: a9da1480e00e21145bf518931d5f4fce, type: 2}
+  - uiColor: {r: 0.22, g: 0.68, b: 0.72, a: 1}
+    adasLinesColor: {r: 0.4392157, g: 1.3568628, b: 1.4431373, a: 1}
+    carMaterial: {fileID: 2100000, guid: b86958d5c1f1402e87f3863b6cd9a461, type: 2}
+  - uiColor: {r: 0.5229316, g: 0.8113208, b: 0.18752226, a: 1}
+    adasLinesColor: {r: 0.45002055, g: 0.72925985, b: 0.3336708, a: 1}
+    carMaterial: {fileID: 2100000, guid: afc131d697d21444cba72b42205dae96, type: 2}
+  - uiColor: {r: 0.57079923, g: 0.79552335, b: 0.9528302, a: 1}
+    adasLinesColor: {r: 0.4089907, g: 1.2974645, b: 1.9268004, a: 1}
+    carMaterial: {fileID: 2100000, guid: d5b156e1dca443f3bd376a1d8daf08af, type: 2}

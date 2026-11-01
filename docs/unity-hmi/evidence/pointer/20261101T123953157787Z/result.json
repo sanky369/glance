@@ -1,0 +1,52 @@
+{
+  "cleanup": {
+    "valid": true,
+    "routing": "PointersAndKeyboardsRespectGameViewFocus",
+    "background": "ResetAndDisableNonBackgroundDevices",
+    "mice": 0
+  },
+  "success": true,
+  "initial": {
+    "ready": true,
+    "scene": "HVAC",
+    "driver": 21,
+    "passenger": 15
+  },
+  "observations": [
+    {
+      "ready": true,
+      "scene": "HVAC",
+      "driver": 21,
+      "passenger": 15
+    },
+    {
+      "ready": true,
+      "scene": "HVAC",
+      "driver": 22,
+      "passenger": 15
+    },
+    {
+      "ready": true,
+      "scene": "HVAC",
+      "driver": 21,
+      "passenger": 15
+    }
+  ],
+  "final": {
+    "ready": true,
+    "scene": "HVAC",
+    "driver": 21,
+    "passenger": 15
+  },
+  "console": {
+    "sampledUtc": "2026-11-01T12:40:24.962517Z",
+    "ageMs": 36,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "method": "Virtual mouse Input System events; no navigation API, temperature setters, or direct UI event invocation"
+}

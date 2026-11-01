@@ -1,0 +1,3 @@
+{
+  "error": "[{'code': 'COMMAND_FAILED', 'message': \"Pipeline server returned 400 Bad Request: Command Execution Failed. Command 'glance.pointer begin' failed: The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\"}]"
+}

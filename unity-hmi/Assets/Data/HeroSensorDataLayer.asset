@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a657db8472ce343b2af70b29e743d4, type: 3}
+  m_Name: HeroSensorDataLayer
+  m_EditorClassIdentifier: Assembly-CSharp::HMI_Hub_Template.HeroSensorDataLayer
+  heroWorldPosition: {x: 83.872734, y: 0, z: 97.54024}
+  heroWorldRotation: {x: 0, y: 1, z: 0, w: 0}
+  detectedVehicles:
+  - entityId: 1
+    vehicleType: 0
+    relativePosition: {x: 107.999985, y: 0, z: 164.19815}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 0.56961393
+  - entityId: 2
+    vehicleType: 1
+    relativePosition: {x: 88.91063, y: 0, z: 241.54022}
+    relativeRotation: {x: 0, y: -0.7071068, z: 0, w: -0.7071068}
+    currentSpeed: 13.39618
+  - entityId: 3
+    vehicleType: 1
+    relativePosition: {x: 103.999985, y: 0, z: 146.96735}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 0.013217245
+  - entityId: 4
+    vehicleType: 0
+    relativePosition: {x: 232, y: 0, z: 200.7949}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 14.846454
+  - entityId: 5
+    vehicleType: 1
+    relativePosition: {x: 111.98693, y: 0, z: 124.29779}
+    relativeRotation: {x: 4.8642353e-12, y: -0.0013327401, z: 6.4827662e-15, w: 0.9999991}
+    currentSpeed: 0.0000000013264267
+  - entityId: 6
+    vehicleType: 0
+    relativePosition: {x: 0, y: 0, z: 38.248657}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 18.035463
+  - entityId: 7
+    vehicleType: 0
+    relativePosition: {x: 220, y: 0, z: 22.190262}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 18.423552
+  - entityId: 8
+    vehicleType: 1
+    relativePosition: {x: -4, y: 0, z: 29.745758}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 17.302784
+  - entityId: 9
+    vehicleType: 1
+    relativePosition: {x: 224, y: 0, z: 23.111206}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 18.071754
+  - entityId: 11
+    vehicleType: 0
+    relativePosition: {x: 220, y: 0, z: -52.944977}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 22.750053
+  - entityId: 12
+    vehicleType: 1
+    relativePosition: {x: 108.01453, y: 0, z: -76.85776}
+    relativeRotation: {x: -1.5515753e-14, y: -0.99999475, z: 4.788924e-12, w: -0.0032399078}
+    currentSpeed: 0.000000021557659
+  - entityId: 13
+    vehicleType: 1
+    relativePosition: {x: 107.999985, y: 0, z: 49.165825}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 16.257042
+  - entityId: 14
+    vehicleType: 1
+    relativePosition: {x: 224.0181, y: 0, z: 255.36272}
+    relativeRotation: {x: 0, y: -0.99912274, z: 0, w: 0.04187879}
+    currentSpeed: 0.0000053624162
+  - entityId: 15
+    vehicleType: 0
+    relativePosition: {x: 103.999985, y: 0, z: -46.040894}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 21.865747
+  - entityId: 16
+    vehicleType: 1
+    relativePosition: {x: 111.983986, y: 0, z: 239.70024}
+    relativeRotation: {x: 0, y: 0.044495028, z: 0, w: 0.9990096}
+    currentSpeed: 0.0000033349183
+  - entityId: 17
+    vehicleType: 0
+    relativePosition: {x: -11.984001, y: 0, z: 255.36424}
+    relativeRotation: {x: -0.0005106131, y: -0.99877745, z: -0.010561109, w: 0.04828933}
+    currentSpeed: 0.0000049472446
+  - entityId: 18
+    vehicleType: 1
+    relativePosition: {x: 115.999985, y: 0, z: 17.702873}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 16.359913
+  - entityId: 19
+    vehicleType: 1
+    relativePosition: {x: 149.37526, y: 0, z: 249.54025}
+    relativeRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+    currentSpeed: 21.860563
+  - entityId: 20
+    vehicleType: 0
+    relativePosition: {x: 111.999985, y: 0, z: 57.909416}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 20.16144
+  - entityId: 21
+    vehicleType: 0
+    relativePosition: {x: 224, y: 0, z: 0.43223572}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 16.822626
+  - entityId: 22
+    vehicleType: 0
+    relativePosition: {x: 115.999985, y: 0, z: 231.05803}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 18.014322
+  - entityId: 23
+    vehicleType: 1
+    relativePosition: {x: 220, y: 0, z: -29.023483}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 22.64999
+  - entityId: 24
+    vehicleType: 1
+    relativePosition: {x: 111.98795, y: 0, z: 239.79553}
+    relativeRotation: {x: 3.8185826e-12, y: 0.008539892, z: -3.2611473e-14, w: 0.9999635}
+    currentSpeed: 4.3015323
+  - entityId: 25
+    vehicleType: 0
+    relativePosition: {x: 107.999985, y: 0, z: 154.18991}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 0.22551194
+  - entityId: 26
+    vehicleType: 0
+    relativePosition: {x: -7.9855576, y: 0, z: 139.15833}
+    relativeRotation: {x: -1.2484452e-14, y: -0.99999654, z: 4.725641e-12, w: -0.002641845}
+    currentSpeed: 0.027575457
+  - entityId: 27
+    vehicleType: 0
+    relativePosition: {x: 103.999985, y: 0, z: 156.98541}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 0.028878229
+  - entityId: 28
+    vehicleType: 1
+    relativePosition: {x: 220.01599, y: 0, z: 255.36424}
+    relativeRotation: {x: -0.0005106131, y: -0.99877745, z: -0.010561109, w: 0.04828933}
+    currentSpeed: 0.0000052979412
+  - entityId: 29
+    vehicleType: 1
+    relativePosition: {x: 224.0151, y: 0, z: 139.07343}
+    relativeRotation: {x: -2.4181385e-14, y: -0.99998814, z: 4.9617402e-12, w: -0.0048735114}
+    currentSpeed: 2.6014833
+  - entityId: 30
+    vehicleType: 0
+    relativePosition: {x: 104.01598, y: 0, z: 255.36424}
+    relativeRotation: {x: -0.0005106131, y: -0.99877745, z: -0.010561109, w: 0.04828933}
+    currentSpeed: 0.000010644808
+  - entityId: 31
+    vehicleType: 1
+    relativePosition: {x: 220.03384, y: 0.00048828125, z: 139.00444}
+    relativeRotation: {x: 0.00031282127, y: -0.9995312, z: -0.010934084, w: -0.028596321}
+    currentSpeed: 1.2728162
+  - entityId: 32
+    vehicleType: 0
+    relativePosition: {x: -7.985466, y: 0, z: 139.14232}
+    relativeRotation: {x: -1.550151e-14, y: -0.99999475, z: 4.7886304e-12, w: -0.0032371322}
+    currentSpeed: 4.125876
+  - entityId: 33
+    vehicleType: 0
+    relativePosition: {x: -7.9819107, y: 0, z: 255.36272}
+    relativeRotation: {x: 0, y: -0.99912274, z: 0, w: 0.04187879}
+    currentSpeed: 0.0000047488265
+  - entityId: 34
+    vehicleType: 0
+    relativePosition: {x: 0, y: 0, z: 75.230385}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 19.620237
+  - entityId: 35
+    vehicleType: 1
+    relativePosition: {x: 220, y: 0, z: 171.25682}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 22.165022
+  - entityId: 36
+    vehicleType: 1
+    relativePosition: {x: -4, y: 0, z: 50.012505}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 17.258615
+  - entityId: 37
+    vehicleType: 0
+    relativePosition: {x: 107.999985, y: 0, z: 4.0604095}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 16.371998
+  - entityId: 38
+    vehicleType: 1
+    relativePosition: {x: -0.020858765, y: 0.0002593994, z: 239.75313}
+    relativeRotation: {x: -0.010946211, y: -0.030211087, z: -0.0003308678, w: 0.9994836}
+    currentSpeed: 0.04803777
+  - entityId: 39
+    vehicleType: 1
+    relativePosition: {x: 103.999985, y: 0, z: 36.593132}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 20.319803
+  - entityId: 40
+    vehicleType: 1
+    relativePosition: {x: -4.0116806, y: 0, z: 239.82094}
+    relativeRotation: {x: 4.1420205e-12, y: 0.0054881745, z: -2.2732475e-14, w: 0.999985}
+    currentSpeed: 2.4288728
+  - entityId: 41
+    vehicleType: 1
+    relativePosition: {x: -7.983055, y: 0, z: 139.34644}
+    relativeRotation: {x: 3.958473e-14, y: -0.9995774, z: 1.3611038e-12, w: 0.029070523}
+    currentSpeed: 0.34427077
+  - entityId: 42
+    vehicleType: 1
+    relativePosition: {x: 115.999985, y: 0, z: 40.830376}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 15.283448
+  - entityId: 43
+    vehicleType: 1
+    relativePosition: {x: 108.018074, y: 0, z: 255.36272}
+    relativeRotation: {x: 0, y: -0.99912274, z: 0, w: 0.04187879}
+    currentSpeed: 0.000008148858
+  - entityId: 44
+    vehicleType: 1
+    relativePosition: {x: 111.999985, y: 0, z: 80.455666}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 21.068327
+  - entityId: 45
+    vehicleType: 1
+    relativePosition: {x: 224, y: 0, z: 145.03433}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 19.184404
+  - entityId: 46
+    vehicleType: 0
+    relativePosition: {x: -0.0132751465, y: 0.000045776367, z: 239.59233}
+    relativeRotation: {x: -0.010857476, y: -0.0033188902, z: -0.00003603709, w: 0.99993557}
+    currentSpeed: 1.7897162
+  - entityId: 47
+    vehicleType: 1
+    relativePosition: {x: 220.01602, y: 0.000091552734, z: 139.2958}
+    relativeRotation: {x: 0.00022676415, y: -0.99972457, z: -0.010910773, w: -0.020777786}
+    currentSpeed: 0.13118911
+  - entityId: 48
+    vehicleType: 1
+    relativePosition: {x: -4.013336, y: 0, z: 239.7456}
+    relativeRotation: {x: 2.7039603e-12, y: 0.019045467, z: -5.1507528e-14, w: 0.9998186}
+    currentSpeed: 0.089523226
+  - entityId: 49
+    vehicleType: 0
+    relativePosition: {x: -7.98304, y: 0, z: 139.34677}
+    relativeRotation: {x: 3.9212438e-14, y: -0.99957114, z: 1.3385003e-12, w: 0.029283239}
+    currentSpeed: 0.0000012078117
+  - entityId: 50
+    vehicleType: 1
+    relativePosition: {x: 220.01505, y: 0.000030517578, z: -76.65607}
+    relativeRotation: {x: -0.00007120787, y: -0.99991995, z: -0.010802927, w: 0.0065910076}
+    currentSpeed: 0.0000039132187
+  - entityId: 51
+    vehicleType: 1
+    relativePosition: {x: 115.98558, y: 0, z: 239.55785}
+    relativeRotation: {x: -0.010559732, y: 0.05090463, z: 0.00053826725, w: 0.9986476}
+    currentSpeed: 0.0000022541108
+  - entityId: 52
+    vehicleType: 1
+    relativePosition: {x: 222.32306, y: 0, z: -81.48193}
+    relativeRotation: {x: 3.142859e-10, y: -0.88822204, z: 6.0763367e-10, w: 0.45941442}
+    currentSpeed: 0.0000000014905535
+  - entityId: 53
+    vehicleType: 0
+    relativePosition: {x: 107.999985, y: 0, z: 20.65001}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 19.27277
+  - entityId: 54
+    vehicleType: 0
+    relativePosition: {x: 103.999985, y: 0, z: 166.96613}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 4.4612203
+  - entityId: 55
+    vehicleType: 0
+    relativePosition: {x: 103.999985, y: 0, z: 17.521835}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 16.163857
+  - entityId: 56
+    vehicleType: 0
+    relativePosition: {x: -9.113365, y: 0, z: -80.99455}
+    relativeRotation: {x: -2.6431008e-11, y: -0.92816424, z: -6.59168e-11, w: 0.3721709}
+    currentSpeed: 0.0000000013533012
+  - entityId: 57
+    vehicleType: 0
+    relativePosition: {x: 232, y: 0, z: 219.89886}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 15.617602
+  - entityId: 58
+    vehicleType: 0
+    relativePosition: {x: 115.969025, y: 0.00050354004, z: 239.929}
+    relativeRotation: {x: -0.010933241, y: -0.025400626, z: -0.00027781737, w: 0.9996176}
+    currentSpeed: 0.013258957
+  - entityId: 59
+    vehicleType: 1
+    relativePosition: {x: 107.999985, y: 0, z: 204.79419}
+    relativeRotation: {x: 0, y: -1, z: 0, w: 0}
+    currentSpeed: 16.19413
+  - entityId: 60
+    vehicleType: 1
+    relativePosition: {x: 111.999985, y: 0, z: 228.5941}
+    relativeRotation: {x: 0, y: 0, z: 0, w: 1}
+    currentSpeed: 16.590109
+  detectedPedestrians:
+  - entityId: 1
+    vehicleType: 0
+    relativePosition: {x: 4.5924377, y: 0.3262024, z: 116.743576}
+    relativeRotation: {x: 0.017459065, y: -0.65336186, z: 0.015074895, w: 0.75669426}
+    currentSpeed: 1.12709
+  - entityId: 2
+    vehicleType: 0
+    relativePosition: {x: -17.156723, y: 0.3300476, z: 117.548615}
+    relativeRotation: {x: -0.053250823, y: -0.5933986, z: -0.039391417, w: 0.8021788}
+    currentSpeed: 1.236691
+  - entityId: 3
+    vehicleType: 0
+    relativePosition: {x: -20.959785, y: 0.32809448, z: 142.08432}
+    relativeRotation: {x: 0.015755845, y: -0.026326638, z: 0.00041499388, w: 0.9995291}
+    currentSpeed: 1.0873648
+  - entityId: 4
+    vehicleType: 0
+    relativePosition: {x: -6.060219, y: 0.34054565, z: 122.65231}
+    relativeRotation: {x: -0.005969065, y: -0.7399493, z: 0.0065667224, w: -0.67260414}
+    currentSpeed: 1.735545
+  - entityId: 5
+    vehicleType: 0
+    relativePosition: {x: 236.25287, y: 0.33525085, z: 254.4309}
+    relativeRotation: {x: 0.0115438765, y: 0.12244445, z: -0.0014242982, w: 0.9924072}
+    currentSpeed: 1.9547924
+  - entityId: 6
+    vehicleType: 0
+    relativePosition: {x: 214.52353, y: 0.343338, z: 240.82301}
+    relativeRotation: {x: 0.000008534163, y: -0.027547311, z: 0.0000002351825, w: 0.99962056}
+    currentSpeed: 1.5042083
+  - entityId: 7
+    vehicleType: 0
+    relativePosition: {x: 226.14026, y: 0.34042358, z: 259.20947}
+    relativeRotation: {x: -0.006047842, y: -0.741168, z: 0.0066777007, w: -0.6712591}
+    currentSpeed: 1.7419598
+  - entityId: 8
+    vehicleType: 0
+    relativePosition: {x: 217.10645, y: 0.3431244, z: 238.64809}
+    relativeRotation: {x: 0.00299983, y: -0.65619373, z: -0.002608689, w: -0.75458205}
+    currentSpeed: 1.4537532
+  - entityId: 9
+    vehicleType: 0
+    relativePosition: {x: 119.82277, y: 0.34291077, z: 242.9284}
+    relativeRotation: {x: 0.004311176, y: 0.009448575, z: -0.00004073666, w: 0.99994606}
+    currentSpeed: 1.5852892
+  - entityId: 10
+    vehicleType: 0
+    relativePosition: {x: 98.61858, y: 0.34194946, z: 245.66125}
+    relativeRotation: {x: 0.0069092843, y: 0.034965344, z: -0.0002417391, w: 0.9993646}
+    currentSpeed: 1.6583476
+  - entityId: 11
+    vehicleType: 0
+    relativePosition: {x: 106.47117, y: 0.34243774, z: 259.24377}
+    relativeRotation: {x: -0.0040680063, y: -0.7165883, z: 0.0041795014, w: -0.69747204}
+    currentSpeed: 1.6248951
+  - entityId: 12
+    vehicleType: 0
+    relativePosition: {x: 117.96226, y: 0.33418274, z: 238.45143}
+    relativeRotation: {x: -0.0071449243, y: -0.79145736, z: 0.009253453, w: -0.61111265}
+    currentSpeed: 1.9950134
+  - entityId: 13
+    vehicleType: 0
+    relativePosition: {x: 120.1904, y: 0.33628845, z: -78.76889}
+    relativeRotation: {x: 0.0113479085, y: 0.10939937, z: -0.0012490328, w: 0.99393237}
+    currentSpeed: 1.91569
+  - entityId: 14
+    vehicleType: 0
+    relativePosition: {x: 98.950386, y: 0.33595276, z: -77.934784}
+    relativeRotation: {x: 0.011427525, y: 0.11351921, z: -0.0013057712, w: 0.99346924}
+    currentSpeed: 1.9286306
+  - entityId: 15
+    vehicleType: 0
+    relativePosition: {x: 115.10329, y: 0.33665466, z: -72.895035}
+    relativeRotation: {x: -0.007202426, y: -0.770846, z: 0.008716873, w: -0.6369212}
+    currentSpeed: 1.9016476
+  - entityId: 16
+    vehicleType: 0
+    relativePosition: {x: 113.64438, y: 0.33784485, z: -93.41736}
+    relativeRotation: {x: -0.0070138774, y: -0.7618815, z: 0.008251281, w: -0.6476259}
+    currentSpeed: 1.8545078
+  - entityId: 17
+    vehicleType: 0
+    relativePosition: {x: 4.153099, y: 0.33692932, z: -79.53163}
+    relativeRotation: {x: 0.011155344, y: 0.10177873, z: -0.001141376, w: 0.9947439}
+    currentSpeed: 1.8910054
+  - entityId: 18
+    vehicleType: 0
+    relativePosition: {x: -17.469078, y: 0.3433075, z: -90.52388}
+    relativeRotation: {x: 0.001309507, y: -0.016777618, z: 0.000021973521, w: 0.9998584}
+    currentSpeed: 1.5249949
+  - entityId: 19
+    vehicleType: 0
+    relativePosition: {x: -7.7819214, y: 0.34158325, z: -72.76773}
+    relativeRotation: {x: -0.0051658796, y: -0.72901446, z: 0.0055021755, w: -0.68445677}
+    currentSpeed: 1.6805295
+  - entityId: 20
+    vehicleType: 0
+    relativePosition: {x: -4.385643, y: 0.33940125, z: -93.374664}
+    relativeRotation: {x: -0.006544967, y: -0.749933, z: 0.007420611, w: -0.6614398}
+    currentSpeed: 1.7891858
+  - entityId: 21
+    vehicleType: 0
+    relativePosition: {x: 4.460083, y: 0.32566833, z: 232.91595}
+    relativeRotation: {x: -0.0076221223, y: -0.6367714, z: -0.0062952233, w: 0.77098924}
+    currentSpeed: 1.1573725
+  - entityId: 22
+    vehicleType: 0
+    relativePosition: {x: -16.512955, y: 0.32789612, z: 233.15163}
+    relativeRotation: {x: 0.012075057, y: -0.71388066, z: 0.012313531, w: 0.700055}
+    currentSpeed: 1.092949
+  - entityId: 23
+    vehicleType: 0
+    relativePosition: {x: -10.554375, y: 0.34283447, z: 259.2461}
+    relativeRotation: {x: -0.0032470413, y: -0.7083186, z: 0.0032582683, w: -0.7058779}
+    currentSpeed: 1.5921776
+  - entityId: 24
+    vehicleType: 0
+    relativePosition: {x: -20.9701, y: 0.32684326, z: 237.65215}
+    relativeRotation: {x: 0.023513805, y: 0.023438506, z: -0.0005514325, w: 0.9994486}
+    currentSpeed: 1.11541
+  - entityId: 25
+    vehicleType: 0
+    relativePosition: {x: 235.88727, y: 0.34179688, z: -86.473145}
+    relativeRotation: {x: 0.0071937838, y: 0.03803642, z: -0.000273831, w: 0.9992505}
+    currentSpeed: 1.668077
+  - entityId: 26
+    vehicleType: 0
+    relativePosition: {x: 214.70291, y: 0.33517456, z: -97.8573}
+    relativeRotation: {x: -0.043912623, y: -0.39759147, z: -0.01905384, w: 0.9163131}
+    currentSpeed: 1.2755883
+  - entityId: 27
+    vehicleType: 0
+    relativePosition: {x: 211.17426, y: 0.32556152, z: -73.64284}
+    relativeRotation: {x: 0.0011084565, y: 0.097899646, z: -0.000109041364, w: 0.9951957}
+    currentSpeed: 1.1476363
+  - entityId: 28
+    vehicleType: 0
+    relativePosition: {x: 211.21829, y: 0.3295288, z: -94.765}
+    relativeRotation: {x: 0.005568948, y: -0.055379692, z: 0.00030888544, w: 0.9984498}
+    currentSpeed: 1.0238101
+  - entityId: 29
+    vehicleType: 0
+    relativePosition: {x: 235.80954, y: 0.34309387, z: 126.24099}
+    relativeRotation: {x: 0.0033322196, y: 0.00062607386, z: -0.0000020862276, w: 0.9999943}
+    currentSpeed: 1.5633776
+  - entityId: 30
+    vehicleType: 0
+    relativePosition: {x: 214.52142, y: 0.343338, z: 124.59203}
+    relativeRotation: {x: -0.00049347646, y: -0.03163584, z: -0.000015619358, w: 0.9994994}
+    currentSpeed: 1.4968514
+  - entityId: 31
+    vehicleType: 0
+    relativePosition: {x: 231.17432, y: 0.33659363, z: 143.10297}
+    relativeRotation: {x: -0.007208296, y: -0.7712989, z: 0.008736632, w: -0.63637245}
+    currentSpeed: 1.9039423
+  - entityId: 32
+    vehicleType: 0
+    relativePosition: {x: 225.51645, y: 0.3408203, z: 122.65796}
+    relativeRotation: {x: -0.0057931943, y: -0.73734456, z: 0.006323934, w: -0.6754625}
+    currentSpeed: 1.7220024
+  - entityId: 33
+    vehicleType: 0
+    relativePosition: {x: 111.680405, y: 0.33935547, z: 122.624084}
+    relativeRotation: {x: -0.0065640393, y: -0.7503207, z: 0.007451041, w: -0.6609995}
+    currentSpeed: 1.791307
+  - entityId: 34
+    vehicleType: 0
+    relativePosition: {x: 106.531624, y: 0.3424225, z: 143.24355}
+    relativeRotation: {x: -0.004111836, y: -0.7170496, z: 0.0042301323, w: -0.69699717}
+    currentSpeed: 1.6268125
+  - entityId: 35
+    vehicleType: 0
+    relativePosition: {x: 98.70028, y: 0.34043884, z: 132.24554}
+    relativeRotation: {x: 0.008970832, y: 0.059498824, z: -0.0005347229, w: 0.99818796}
+    currentSpeed: 1.7408757
+  - entityId: 36
+    vehicleType: 0
+    relativePosition: {x: 119.77554, y: 0.34318542, z: 123.073616}
+    relativeRotation: {x: -0.0031942367, y: -0.05315229, z: -0.00017002219, w: 0.99858135}
+    currentSpeed: 1.4623442
