@@ -4,6 +4,12 @@ AI-assisted inspection and improvement of automotive touchscreen prototypes, bui
 
 The working journey is **test an HMI → measure interaction friction → let Codex revise the UI → run a fresh test and climate regression → compare results**. OpenAI Decisions API selects actions from the currently visible controls; independent code executes inputs and verifies outcomes. This is an assisted, instrumented walkthrough, not a measurement of human distraction or regulatory compliance.
 
+## Architecture
+
+![Glance architecture: Decisions-driven UI interaction, independent verification, and guarded Codex improvements](output/presentation/assets/glance-architecture.png)
+
+Decisions selects visible controls, real pointer inputs operate Unity, and an independent verifier checks outcomes. Codex proposes guarded radio UI changes followed by compilation and fresh retests.
+
 ## Working core
 
 - OpenAI Decisions API (`gpt-6-luna`) selects visible HMI controls from screenshots and a neutral control inventory.
