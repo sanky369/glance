@@ -1,0 +1,34 @@
+{
+  "policyVersion": "verified-stop-v1",
+  "id": "2026-11-01T14-46-37-489Z-radio-revised",
+  "taskId": "radio",
+  "variant": "revised",
+  "model": "gpt-6-luna",
+  "uiHash": "1dddf07355a4f9363c40b283c7e51e0a5964085745e9c2b6c387ae2364fb8432",
+  "task": {
+    "instruction": "Tune the radio to BBC Radio 2.",
+    "field": "stationId",
+    "expected": "radio_2"
+  },
+  "final": {
+    "stationId": "radio_2",
+    "driverTemperature": 22,
+    "passengerTemperature": 22,
+    "screenId": "Playing/BodyControl",
+    "ready": true
+  },
+  "finalScreenshot": "final.png",
+  "failure": null,
+  "elapsedMs": 17237,
+  "scorerVersion": "2-final-screen-inclusive",
+  "success": true,
+  "actions": 1,
+  "screensVisited": 2,
+  "backtracks": 0,
+  "smallTargets": 0,
+  "decisionsCalls": 1,
+  "apiLatencyMs": 962,
+  "inputTokens": 1468,
+  "outputTokens": 0,
+  "threshold": "44 screenshot pixels; not a physical-size or safety threshold"
+}

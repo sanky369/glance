@@ -1,0 +1,29 @@
+# One-click Codex cycle
+
+Start the local dashboard with its server-side API key loaded. Its cycle action launches:
+
+```sh
+node --env-file-if-exists=.env.local runner/cycle.ts
+```
+
+The command uses the currently installed UI as its baseline. It records that exact source and its SHA-256, runs fresh radio and climate trials, derives findings from the genuine radio trace, and sends only the current UI source and findings to Codex. Codex uses a structured source response with its tool host disabled. The API key is excluded from the Codex and Unity subprocess environments.
+
+The generator extracts only Show/Menu bodies from the raw Codex source and splices them into the exact parent, preserving all other bytes and the EOF newline. The original `proposal.json` remains unchanged for audit; `after.cs` is the reconstructed candidate. The proposal must preserve every byte outside the `Show` and `Menu` method bodies and match its current parent before application. A restrictive parser also preserves the exact Show prologue/Climate branch and page conditions, allows only Label/Button/Menu presentation calls with bounded literal geometry, preserves every existing labeled navigation callback in its page context, and admits Tune/Show only as known event callbacks. Arbitrary assignments, member access, loops, helpers, types and direct state/file/network/process calls are rejected before application. Source and version writes use same-directory atomic renames, and standalone application acquires the same whole-cycle lock and rejects active evaluations. The cycle stops Play mode, applies the proposal, recompiles/imports the Unity project, waits for readiness, restarts Play mode, and runs fresh radio and climate trials. Acceptance policy `radio-path-climate-function-v1`: failed task predicates, API errors and compile errors fail validation. Radio inputs and radio small-target counts must not increase. Climate acceptance requires the fixed driver target of 21°C and the unchanged passenger invariant of 22°C; its action count is descriptive and is not a rollback gate. An increased climate action count remains visible in `comparison.climateInputDelta` and a `climate-input-increase` warning. Each phase runs once without rerolling; an action-count difference in one stochastic trial does not establish a reproducible UX change. This policy is recorded at cycle startup before collecting its evidence. A failed applied revision restores the parent and version tags, recompiles, and restarts; recovery failures are reported explicitly. Concurrent source edits are preserved rather than overwritten during rollback.
+
+An already direct, large-target UI can produce an explicit unchanged `already_optimized` proposal. That outcome still receives fresh retests and never claims a measured improvement. One trial per task per phase is evidence of that trial, not a statistical UX or human-distraction result.
+
+## Integration contract
+
+- `runs/.cycle` is an exclusive whole-cycle lock containing `{id,pid,startedAt}`. Never remove an active lock automatically. After a killed process, inspect its PID and the retained manifest before manual recovery.
+- Normal dashboard and voice runs reject this lock. Cycle test children pass `GLANCE_CYCLE_ID` matching the lock ID. `run.ts` checks ownership before and after acquiring its existing `runs/.active` lock, which remains in use per trial. A cycle also refuses to begin while `.active` exists.
+- The cycle writes JSONL progress to stdout. Events have `type: cycle` with the current manifest, or `type: cycle-child` with child progress. Parse complete lines.
+- Poll `runs/cycle-latest.json` for the most recent manifest. Its `status` is `running`, `succeeded`, or `failed`; `stage` gives progress. The same manifest is retained at `runs/<cycle-id>/cycle.json`. `runs` identifies each genuine trial, `proposal` identifies the Codex evidence folder, and `comparison.improved` distinguishes a measured gain from no measured gain.
+- Per-cycle evidence retains the parent, findings, diff, command stdout/stderr, proposal link, hashes, retest IDs and rollback status. Original run source/trace evidence is never rewritten. Successful cycles export genuine trial evidence using the existing exporter and a compact cycle bundle to `docs/build/cycles/<cycle-id>/`.
+
+Preflight requires Main already playing and unpaused; a stopped, paused or unavailable Editor fails with instructions to start/unpause it and retry. Decisions API errors, including climate errors, fail the cycle without retrying or substituting a successful historical trial. Public cycle manifests and diffs replace the local workspace root with `<GLANCE_ROOT>`; raw local evidence retains its original paths.
+
+A running Unity Editor on the isolated `unity-hmi` project, a valid server-side Decisions API key and an authenticated Codex CLI are required. The cycle never opens a different Editor or submits/publishes externally. SIGINT/SIGTERM cancels the active test or Codex child while holding the cycle lock until cleanup completes. Codex receives SIGTERM and, after five seconds if needed, SIGKILL; proposals also have a three-minute budget. Killing the process forcibly can interrupt recovery; the lock is intentionally left for inspection in that case. Static syntax checks do not establish live Unity or Codex success.
+
+## Capability fixture starting view
+
+Registered capability tasks reset the native BodyControl orbit camera to its configured horizontal and vertical axis centers, retaining the zoom axis. Fixture readiness waits at least half a second after initialization and until body/selector animations settle. This centered starting view is deterministic and may differ from the template scene’s saved initial axis values. ADAS simulation is not disabled or reset by the camera fixture.

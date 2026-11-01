@@ -142,7 +142,8 @@ namespace Glance.Editor
                     releasing = true;
                 }
             }
-            InputSystem.QueueStateEvent(mouse, new MouseState { position = position, buttons = (ushort)(pressed ? 1 : 0) });
+            var previousPosition = mouse.position.ReadValue();
+            InputSystem.QueueStateEvent(mouse, new MouseState { position = position, delta = position - previousPosition, buttons = (ushort)(pressed ? 1 : 0) });
             queuedFrame = Time.frameCount;
         }
 

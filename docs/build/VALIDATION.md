@@ -20,8 +20,18 @@ Baseline comparison policy: verified-stop-v1. The verifier ends each task as soo
 - Existing logged-in Chrome validated run launch, measured comparison, selected-action replay and final-state playback. The browser authority timeout was retried successfully.
 - A 59-second captioned replay assembled from genuine screenshots is `glance-demo.mp4`. It is not a live screen recording; source run IDs are in `demo-sources.json`.
 
-Remaining submission work: team/contact details, the organizer's submission route and receipt, and optional hosted deployment. The dashboard is local and requires the native Unity Editor. Full browser deployment, general HMI ingestion, speech and image generation were not implemented.
+Remaining submission work: team/contact details, the organizer's submission route and receipt, and optional hosted deployment. The dashboard is local and requires the native Unity Editor. Full browser deployment and arbitrary HMI ingestion are not implemented. Speech and generated artwork were subsequently added; see the latest acceptance below.
 
 Offline acceptance: `npm run replay` serves 11 archived runs and their PNGs without a key, rejects live execution, and rejects private-file paths. A stale Codex source proposal was rejected without changing the UI.
 
 Final Unity console snapshot: no compilation failure and zero errors. One later warning reports an OS audio-device change/reset; it is retained in `final-console.json` and is not an HMI task failure.
+
+## 16:18 final acceptance
+
+- 66 genuine runs exported with screenshots, original results and redacted traces. Failures are retained.
+- Full-HMI suite plus affected targeted retests provide at least one passing evaluation for each of 20 available task contracts. They span revisions; this is not a clean single-suite 20/20 claim.
+- Final fan, music pause and A/C off real-pointer checks passed at 16:16–16:18. Earlier affected Auto and seat-heating retests passed. Four enum-only body controls are not instantiated in Main and are marked unavailable, not product defects.
+- Actual changed Codex cycle cycle-2026-11-01T14-44-11-634Z passed: radio 5→1 inputs, small-target inputs 5→0; climate functional regression passed at 21/22°C but used 6 inputs versus 2 baseline. This latency/input regression is retained, not hidden.
+- Realtime browser connection, audio/transcripts and grounded tool results were verified. Default voice capture is push-to-talk. Microphone session ended after verification.
+- Full native workspaces, premium generated artwork, task/revision/category/result filters and linked source/retest evidence are implemented. Automated patching remains limited to guarded Glance radio presentation methods.
+- The user will record and upload the final live demo. Submission and video accessibility remain user-owned. No claim of automotive safety, distraction measurement, or production readiness.

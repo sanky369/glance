@@ -1,0 +1,24 @@
+{
+  "baselineRun": "2026-11-01T14-25-36-888Z-radio-baseline",
+  "climateBaselineRun": "2026-11-01T14-25-54-767Z-climate-regression",
+  "sourceHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+  "verifiedSuccess": true,
+  "metrics": {
+    "actions": 1,
+    "screensVisited": 2,
+    "backtracks": 0,
+    "smallTargets": 0
+  },
+  "observedPath": [
+    "BBC Radio 2"
+  ],
+  "observedTargets": [
+    {
+      "label": "BBC Radio 2",
+      "width": 198.773972,
+      "height": 76.06628
+    }
+  ],
+  "request": "Improve only evidenced navigation or target-size problems. Preserve existing styling, all stations, Media, Home and Climate and all functionality. An already optimal one-input path may require no change.",
+  "limits": "One genuine trial per task per phase; visible-control inventory assists the agent. No inference about human distraction or safety."
+}

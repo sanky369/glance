@@ -1,0 +1,11 @@
+{
+  "generator": "GPT Image API via bundled imagegen CLI",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "output/imagegen/studio-prompt.txt",
+  "asset": "output/imagegen/glance-studio.png",
+  "usedIn": [
+    "dashboard/assets/glance-studio.png",
+    "unity-hmi/Assets/Glance/Resources/Glance/Studio.png"
+  ],
+  "note": "Generated artwork is a background behind real interactive controls; it is not a baked-in UI."
+}

@@ -32,3 +32,6 @@ __pycache__/
 
 /runs/
 /node_modules/
+
+# Review live microphone/tab recordings locally before publication.
+/docs/build/glance-live-demo.*

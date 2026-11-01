@@ -1,0 +1,48 @@
+{
+  "baselineRun": "2026-11-01T14-44-13-891Z-radio-baseline",
+  "climateBaselineRun": "2026-11-01T14-45-09-670Z-climate-regression",
+  "sourceHash": "5b38c961a5e9d9637c69dec53695c4bf2b2b3c53e8239deba242cd710cd410f8",
+  "verifiedSuccess": true,
+  "metrics": {
+    "actions": 5,
+    "screensVisited": 6,
+    "backtracks": 0,
+    "smallTargets": 5
+  },
+  "observedPath": [
+    "Media",
+    "Sources",
+    "FM radio",
+    "Presets",
+    "BBC Radio 2"
+  ],
+  "observedTargets": [
+    {
+      "label": "Media",
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    {
+      "label": "Sources",
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    {
+      "label": "FM radio",
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    {
+      "label": "Presets",
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    {
+      "label": "BBC Radio 2",
+      "width": 111.187675,
+      "height": 30.2191658
+    }
+  ],
+  "request": "Improve only evidenced navigation or target-size problems. Preserve existing styling, all stations, Media, Home and Climate and all functionality. An already optimal one-input path may require no change.",
+  "limits": "One genuine trial per task per phase; visible-control inventory assists the agent. No inference about human distraction or safety."
+}

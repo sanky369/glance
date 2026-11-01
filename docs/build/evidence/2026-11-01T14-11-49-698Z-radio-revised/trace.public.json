@@ -1,0 +1,380 @@
+[
+  {
+    "call": 0,
+    "screenshot": "000.png",
+    "revision": "c8e3c8025aa9847fb8ff9d10e0902b4dd186a10d23a6c734de716abe416577f0",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "BBC Radio 1",
+          "x": 426.8903,
+          "y": 311.433441,
+          "endX": 426.8903,
+          "endY": 311.433441,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 77.70649
+        },
+        {
+          "id": "a5",
+          "label": "BBC Radio 2",
+          "x": 640,
+          "y": 311.433441,
+          "endX": 640,
+          "endY": 311.433441,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 77.70649
+        },
+        {
+          "id": "a6",
+          "label": "BBC Radio 3",
+          "x": 853.1097,
+          "y": 311.433441,
+          "endX": 853.1097,
+          "endY": 311.433441,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 77.70649
+        },
+        {
+          "id": "a7",
+          "label": "Media",
+          "x": 426.8903,
+          "y": 406.40802,
+          "endX": 426.8903,
+          "endY": 406.40802,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 69.07241
+        },
+        {
+          "id": "a8",
+          "label": "Vehicle",
+          "x": 640,
+          "y": 406.40802,
+          "endX": 640,
+          "endY": 406.40802,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 69.07241
+        },
+        {
+          "id": "a9",
+          "label": "Settings",
+          "x": 853.1097,
+          "y": 406.40802,
+          "endX": 853.1097,
+          "endY": 406.40802,
+          "duration": 0.12,
+          "width": 194.57843,
+          "height": 69.07241
+        },
+        {
+          "id": "a10",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a11",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a12",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a13",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a14",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a16",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a17",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a18",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a19",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Home/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793542316131,
+    "apiLatencyMs": 1042,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a5",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 0
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0
+            },
+            {
+              "value": "a5",
+              "probability": 1
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0
+            },
+            {
+              "value": "a17",
+              "probability": 0
+            },
+            {
+              "value": "a18",
+              "probability": 0
+            },
+            {
+              "value": "a19",
+              "probability": 0
+            },
+            {
+              "value": "report_done",
+              "probability": 0
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 1
+        }
+      ],
+      "usage": {
+        "input_tokens": 1468,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1143,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1143,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1468
+      }
+    },
+    "choice": "a5",
+    "action": {
+      "id": "a5",
+      "label": "BBC Radio 2",
+      "x": 640,
+      "y": 311.433441,
+      "endX": 640,
+      "endY": 311.433441,
+      "duration": 0.12,
+      "width": 194.57843,
+      "height": 77.70649
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_2",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Playing/BodyControl",
+      "ready": true
+    }
+  }
+]

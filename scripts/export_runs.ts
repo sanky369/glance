@@ -10,7 +10,7 @@ for(const id of await readdir(resolve(root,'runs'))){
  const safe=(v:any)=>JSON.stringify(v,null,2).replaceAll(root,'<GLANCE_ROOT>')+'\n';
  await writeFile(resolve(out,'recorded-result.json'),safe(recorded));await writeFile(resolve(out,'result.json'),safe(result));await writeFile(resolve(out,'trace.public.json'),safe(trace));
  if(result.finalScreenshot)await copyFile(resolve(dir,result.finalScreenshot),resolve(out,result.finalScreenshot));
- for(const s of trace)await copyFile(resolve(dir,s.screenshot),resolve(out,s.screenshot));
+ for(const s of trace){await copyFile(resolve(dir,s.screenshot),resolve(out,s.screenshot));if(s.afterScreenshot)await copyFile(resolve(dir,s.afterScreenshot),resolve(out,s.afterScreenshot));}
  try{await copyFile(resolve(dir,'ui-source.cs'),resolve(out,'ui-source.cs'));}catch{}
  const hash=createHash('sha256').update(await readFile(resolve(out,'trace.public.json'))).digest('hex');results.push({...result,traceSha256:hash});
 }

@@ -1,0 +1,37 @@
+{
+  "policyVersion": "verified-stop-v1",
+  "id": "2026-11-01T14-27-13-234Z-climate-regression",
+  "taskId": "climate",
+  "variant": "regression",
+  "model": "gpt-6-luna",
+  "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+  "task": {
+    "instruction": "Set the driver cabin temperature to 21 degrees Celsius. Keep the passenger temperature unchanged.",
+    "field": "driverTemperature",
+    "expected": 21,
+    "invariants": {
+      "passengerTemperature": 22
+    }
+  },
+  "final": {
+    "stationId": "radio_1",
+    "driverTemperature": 21,
+    "passengerTemperature": 22,
+    "screenId": "Climate/HVAC",
+    "ready": true
+  },
+  "finalScreenshot": "final.png",
+  "failure": null,
+  "elapsedMs": 24105,
+  "scorerVersion": "2-final-screen-inclusive",
+  "success": true,
+  "actions": 2,
+  "screensVisited": 2,
+  "backtracks": 0,
+  "smallTargets": 1,
+  "decisionsCalls": 2,
+  "apiLatencyMs": 1693,
+  "inputTokens": 3097,
+  "outputTokens": 0,
+  "threshold": "44 screenshot pixels; not a physical-size or safety threshold"
+}

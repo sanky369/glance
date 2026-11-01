@@ -2,7 +2,7 @@
 
 AI-assisted inspection and improvement of automotive touchscreen prototypes, built for the DevDay Exchange Community Hackathon in London on 1 November 2026.
 
-The planned journey is **test an HMI → measure interaction friction → let Codex revise the UI → run a fresh test and climate regression → compare results**. OpenAI Decisions API will select actions from the currently visible controls; independent code will execute inputs and verify outcomes. This is an assisted, instrumented walkthrough, not a measurement of human distraction or regulatory compliance.
+The working journey is **test an HMI → measure interaction friction → let Codex revise the UI → run a fresh test and climate regression → compare results**. OpenAI Decisions API selects actions from the currently visible controls; independent code executes inputs and verifies outcomes. This is an assisted, instrumented walkthrough, not a measurement of human distraction or regulatory compliance.
 
 ## Working core
 
@@ -27,11 +27,13 @@ Requires Unity **6000.6.3f1**, Unity CLI **1.0.0-beta.15**, Node **24+** (verifi
 4. From the repository root, run `npm start` and open **http://127.0.0.1:3210**.
 For an explicit offline demo, use `npm run replay`. It needs neither an API key nor a running Unity Editor, loads only archived evidence, and disables live execution.
 
-5. For live tests, use **Retest revised UI** or **Check climate regression**. The baseline button is disabled when the current source hash differs from the recorded baseline.
+5. Choose a supported instruction or task from the dashboard. Use **Load fresh HMI** for the nested-radio demo baseline, then the complete Codex cycle to evaluate, propose a guarded UI revision, compile and retest. Do not interact manually while automation owns Unity.
+
+The dashboard includes voice conversation, task/result/category/revision filters, evidence-derived usability/functionality/infrastructure findings and linked Codex source changes. Twenty task contracts cover the controls instantiated in this scene; four enum-only body controls are explicitly unavailable. Gear tasks verify visible UI selection, not vehicle physics.
 
 The checked-in UI is the tested revised version. Baseline screenshots, source snapshots and results are retained under `docs/build/evidence/`; the baseline source is also `docs/build/redesign/before.cs`. To repeat baseline collection, stop Play, restore that source to the single UI file, refresh/recompile, restart Main, and run `npm run test:radio`. This changes the local checkout; restore the revised UI afterward. Version hashes prevent labelling the revised UI as a baseline.
 
-`npm run redesign` generates an isolated Codex source proposal from `findings.json` and the current Glance UI. This sends those two inputs to OpenAI Codex; use it only when you authorize that transfer. Review its retained `before.cs`/`after.cs`, then apply with `node runner/apply-revision.ts <redesign-run-id>`. The apply command rejects stale parents and changes outside `Show`/`Menu`. Refresh/recompile Unity and run fresh tests afterward. The CLI uses a structured source response because its tool host was unavailable during this build. Do not claim unattended redesign/application.
+`npm run redesign` generates an isolated Codex source proposal from `findings.json` and the current Glance UI. This sends those two inputs to OpenAI Codex; use it only when you authorize that transfer. Review its retained `before.cs`/`after.cs`, then apply with `node runner/apply-revision.ts <redesign-run-id>`. The apply command rejects stale parents and changes outside `Show`/`Menu`. Refresh/recompile Unity and run fresh tests afterward. The CLI uses a structured source response because its tool host was unavailable during this build. The dashboard complete-cycle workflow automates guarded application, compilation and fresh retests with rollback; see [cycle details](docs/build/CYCLE.md).
 
 Runs are serialized and bounded: 25 UI inputs, 40 Decisions calls, five minutes, and 200,000 reported tokens per run. These are local execution limits, not a guaranteed dollar cap; configure an appropriate Platform budget. API errors are retained as failures. Credentials stay in the coordinator and are stripped from Unity/Codex child-process environments. Local raw runs are ignored; `npm run export:evidence` exports screenshots/results and redacted traces.
 
@@ -80,4 +82,10 @@ See [pointer automation](docs/unity-hmi/POINTER-AUTOMATION.md), [Unity setup](do
 
 Unity supplies **Industry HMI Template 1.0.4**, including vehicle/cabin/traffic assets, scenes and template scripts. The download was verified against the catalog digest. Original notices are preserved in [TEMPLATE-LICENSE.md](unity-hmi/TEMPLATE-LICENSE.md), [TEMPLATE-README.md](unity-hmi/TEMPLATE-README.md), and [third-party notices](unity-hmi/TEMPLATE-ThirdPartyNotice.txt). The Unity Companion License and bundled third-party licences continue to apply; this repository does not relicense those materials.
 
-Glance additions made during the hackathon include the synthetic radio UI, Decisions runner, locked task/state adapter, pointer automation, deterministic scoring, local dashboard, Codex UI revision, E2E verification, evidence and planning. Codex helped diagnose input focus/device routing, implement the pointer driver, and verify UI navigation and climate adjustment. The architecture graphic describes the planned system; it does not establish that all components are implemented.
+Glance additions made during the hackathon include the synthetic radio UI, Decisions runner, locked task/state adapter, pointer automation, deterministic scoring, local dashboard, Codex UI revision, E2E verification, evidence and planning. Codex helped diagnose input focus/device routing, implement the pointer driver, and verify UI navigation and climate adjustment. GPT Image 2.5 Flare supplied generated artwork, and OpenAI Realtime supplies the dashboard voice agent. Existing template assets and all generated/third-party credits remain separate from Glance code.
+
+## Latest acceptance and recording
+
+The full-HMI pass and affected targeted retests provide a passing evaluation for each of the 20 available task contracts. This is not a single clean 20/20 suite on the final revision. All failed probes are retained in the 66 exported runs; unavailable scene controls are excluded from the active catalog. Final fan, music-pause and A/C-off real-input retests passed. See [validation](docs/build/VALIDATION.md) and [manual recording steps](docs/build/RECORDING-STEPS.md).
+
+The automatic Codex patch scope is the Glance radio presentation methods. Native HMI controls can be evaluated, but arbitrary native-source fixes are not automatically applied. Voice is a real API integration; venue microphone quality depends on the recording environment.

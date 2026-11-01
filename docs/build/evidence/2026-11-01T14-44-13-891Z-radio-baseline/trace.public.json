@@ -1,0 +1,1717 @@
+[
+  {
+    "call": 0,
+    "screenshot": "000.png",
+    "revision": "0cea093bc82c1d861af3b51e06b95392af7ad74c0b2e7f0ece9a96552a83272a",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "Media",
+          "x": 473.218475,
+          "y": 343.811157,
+          "endX": 473.218475,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a5",
+          "label": "Vehicle",
+          "x": 640,
+          "y": 343.811157,
+          "endX": 640,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a6",
+          "label": "Settings",
+          "x": 806.7815,
+          "y": 343.811157,
+          "endX": 806.7815,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a7",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a8",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a9",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a13",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a16",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Home/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793544260392,
+    "apiLatencyMs": 1190,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a4",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.02
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.9
+            },
+            {
+              "value": "a5",
+              "probability": 0.01
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0.01
+            },
+            {
+              "value": "a8",
+              "probability": 0.01
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "report_done",
+              "probability": 0.01
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.89
+        }
+      ],
+      "usage": {
+        "input_tokens": 1402,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1107,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1107,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1402
+      }
+    },
+    "choice": "a4",
+    "action": {
+      "id": "a4",
+      "label": "Media",
+      "x": 473.218475,
+      "y": 343.811157,
+      "endX": 473.218475,
+      "endY": 343.811157,
+      "duration": 0.12,
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Media/BodyControl",
+      "ready": true
+    },
+    "afterScreenshot": "post-000.png"
+  },
+  {
+    "call": 1,
+    "screenshot": "001.png",
+    "revision": "1afb7b72e0a267ecfe09acece20b5904228b832c856c95ab8b1309ee0c610ba0",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "Sources",
+          "x": 473.218475,
+          "y": 343.811157,
+          "endX": 473.218475,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a5",
+          "label": "Library",
+          "x": 640,
+          "y": 343.811157,
+          "endX": 640,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a6",
+          "label": "Audio",
+          "x": 806.7815,
+          "y": 343.811157,
+          "endX": 806.7815,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a7",
+          "label": "Back",
+          "x": 640,
+          "y": 424.7554,
+          "endX": 640,
+          "endY": 424.7554,
+          "duration": 0.12,
+          "width": 88.0235748,
+          "height": 30.2191658
+        },
+        {
+          "id": "a8",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a9",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a10",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a11",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a12",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a14",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a16",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a17",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Media/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793544270122,
+    "apiLatencyMs": 650,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a4",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.07
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 0
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0.93
+            },
+            {
+              "value": "a5",
+              "probability": 0
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0
+            },
+            {
+              "value": "a17",
+              "probability": 0
+            },
+            {
+              "value": "report_done",
+              "probability": 0
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.93
+        }
+      ],
+      "usage": {
+        "input_tokens": 1423,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1121,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1121,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1423
+      }
+    },
+    "choice": "a4",
+    "action": {
+      "id": "a4",
+      "label": "Sources",
+      "x": 473.218475,
+      "y": 343.811157,
+      "endX": 473.218475,
+      "endY": 343.811157,
+      "duration": 0.12,
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Sources/BodyControl",
+      "ready": true
+    },
+    "afterScreenshot": "post-001.png"
+  },
+  {
+    "call": 2,
+    "screenshot": "002.png",
+    "revision": "6dbb77c92124dce8d1c6f9f56981d0010f384d77098c84b749f1315927f82c30",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "FM radio",
+          "x": 473.218475,
+          "y": 343.811157,
+          "endX": 473.218475,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a5",
+          "label": "Bluetooth",
+          "x": 640,
+          "y": 343.811157,
+          "endX": 640,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a6",
+          "label": "USB",
+          "x": 806.7815,
+          "y": 343.811157,
+          "endX": 806.7815,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a7",
+          "label": "Back",
+          "x": 640,
+          "y": 424.7554,
+          "endX": 640,
+          "endY": 424.7554,
+          "duration": 0.12,
+          "width": 88.0235748,
+          "height": 30.2191658
+        },
+        {
+          "id": "a8",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a9",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a10",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a11",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a12",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a14",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a16",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a17",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Sources/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793544279301,
+    "apiLatencyMs": 1406,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a4",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.08
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.82
+            },
+            {
+              "value": "a5",
+              "probability": 0.01
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0
+            },
+            {
+              "value": "report_done",
+              "probability": 0.03
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.81
+        }
+      ],
+      "usage": {
+        "input_tokens": 1429,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1126,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1126,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1429
+      }
+    },
+    "choice": "a4",
+    "action": {
+      "id": "a4",
+      "label": "FM radio",
+      "x": 473.218475,
+      "y": 343.811157,
+      "endX": 473.218475,
+      "endY": 343.811157,
+      "duration": 0.12,
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "FM/BodyControl",
+      "ready": true
+    },
+    "afterScreenshot": "post-002.png"
+  },
+  {
+    "call": 3,
+    "screenshot": "003.png",
+    "revision": "25fe4594fc52a1db91efd1e4b6a001c30d82d824b97dbef9ca1d8227b9a1ee7a",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "Presets",
+          "x": 510.281036,
+          "y": 343.811157,
+          "endX": 510.281036,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a5",
+          "label": "Scan",
+          "x": 769.718933,
+          "y": 343.811157,
+          "endX": 769.718933,
+          "endY": 343.811157,
+          "duration": 0.12,
+          "width": 129.718948,
+          "height": 43.17026
+        },
+        {
+          "id": "a6",
+          "label": "Back",
+          "x": 640,
+          "y": 424.7554,
+          "endX": 640,
+          "endY": 424.7554,
+          "duration": 0.12,
+          "width": 88.0235748,
+          "height": 30.2191658
+        },
+        {
+          "id": "a7",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a8",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a9",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a13",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a16",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "FM/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793544289236,
+    "apiLatencyMs": 1110,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a4",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.04
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.02
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.86
+            },
+            {
+              "value": "a5",
+              "probability": 0.02
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0.01
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "report_done",
+              "probability": 0.01
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.85
+        }
+      ],
+      "usage": {
+        "input_tokens": 1418,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1122,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1122,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1418
+      }
+    },
+    "choice": "a4",
+    "action": {
+      "id": "a4",
+      "label": "Presets",
+      "x": 510.281036,
+      "y": 343.811157,
+      "endX": 510.281036,
+      "endY": 343.811157,
+      "duration": 0.12,
+      "width": 129.718948,
+      "height": 43.17026
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Presets/BodyControl",
+      "ready": true
+    },
+    "afterScreenshot": "post-003.png"
+  },
+  {
+    "call": 4,
+    "screenshot": "004.png",
+    "revision": "34c6080b1452e7ed0ff2a7c67c1fb7c62dae9eea3bc9c1fe475047d34aae03b0",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "BBC Radio 1",
+          "x": 445.42157,
+          "y": 354.603729,
+          "endX": 445.42157,
+          "endY": 354.603729,
+          "duration": 0.12,
+          "width": 111.187675,
+          "height": 30.2191658
+        },
+        {
+          "id": "a5",
+          "label": "BBC Radio 2",
+          "x": 640,
+          "y": 354.603729,
+          "endX": 640,
+          "endY": 354.603729,
+          "duration": 0.12,
+          "width": 111.187675,
+          "height": 30.2191658
+        },
+        {
+          "id": "a6",
+          "label": "BBC Radio 3",
+          "x": 834.5784,
+          "y": 354.603729,
+          "endX": 834.5784,
+          "endY": 354.603729,
+          "duration": 0.12,
+          "width": 111.187675,
+          "height": 30.2191658
+        },
+        {
+          "id": "a7",
+          "label": "Back",
+          "x": 640,
+          "y": 424.7554,
+          "endX": 640,
+          "endY": 424.7554,
+          "duration": 0.12,
+          "width": 88.0235748,
+          "height": 30.2191658
+        },
+        {
+          "id": "a8",
+          "label": "Home",
+          "x": 329.6011,
+          "y": 506.77887,
+          "endX": 329.6011,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a9",
+          "label": "Climate",
+          "x": 950.3989,
+          "y": 506.77887,
+          "endX": 950.3989,
+          "endY": 506.77887,
+          "duration": 0.12,
+          "width": 148.250229,
+          "height": 49.64581
+        },
+        {
+          "id": "a10",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a11",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a12",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a14",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a16",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a17",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Presets/BodyControl",
+      "ready": true
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793544298898,
+    "apiLatencyMs": 877,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a5",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 0
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0
+            },
+            {
+              "value": "a5",
+              "probability": 1
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0
+            },
+            {
+              "value": "a17",
+              "probability": 0
+            },
+            {
+              "value": "report_done",
+              "probability": 0
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 1
+        }
+      ],
+      "usage": {
+        "input_tokens": 1455,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1144,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1144,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1455
+      }
+    },
+    "choice": "a5",
+    "action": {
+      "id": "a5",
+      "label": "BBC Radio 2",
+      "x": 640,
+      "y": 354.603729,
+      "endX": 640,
+      "endY": 354.603729,
+      "duration": 0.12,
+      "width": 111.187675,
+      "height": 30.2191658
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_2",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Playing/BodyControl",
+      "ready": true
+    },
+    "afterScreenshot": "post-004.png"
+  }
+]

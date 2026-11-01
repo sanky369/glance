@@ -1,0 +1,81 @@
+{
+  "id": "cycle-2026-11-01T14-44-11-634Z",
+  "out": "<GLANCE_ROOT>/runs/cycle-2026-11-01T14-44-11-634Z",
+  "validationPolicy": "radio-path-climate-function-v1",
+  "status": "succeeded",
+  "stage": "complete",
+  "startedAt": "2026-11-01T14:44:11.636Z",
+  "runs": [
+    {
+      "label": "baseline-radio",
+      "id": "2026-11-01T14-44-13-891Z-radio-baseline",
+      "uiHash": "5b38c961a5e9d9637c69dec53695c4bf2b2b3c53e8239deba242cd710cd410f8",
+      "success": true,
+      "actions": 5,
+      "failure": null
+    },
+    {
+      "label": "baseline-climate",
+      "id": "2026-11-01T14-45-09-670Z-climate-regression",
+      "uiHash": "5b38c961a5e9d9637c69dec53695c4bf2b2b3c53e8239deba242cd710cd410f8",
+      "success": true,
+      "actions": 2,
+      "failure": null
+    },
+    {
+      "label": "retest-radio",
+      "id": "2026-11-01T14-46-37-489Z-radio-revised",
+      "uiHash": "1dddf07355a4f9363c40b283c7e51e0a5964085745e9c2b6c387ae2364fb8432",
+      "success": true,
+      "actions": 1,
+      "failure": null
+    },
+    {
+      "label": "retest-climate",
+      "id": "2026-11-01T14-46-54-862Z-climate-regression",
+      "uiHash": "1dddf07355a4f9363c40b283c7e51e0a5964085745e9c2b6c387ae2364fb8432",
+      "success": true,
+      "actions": 6,
+      "failure": null
+    }
+  ],
+  "updatedAt": "2026-11-01T14:48:02.482Z",
+  "parentHash": "5b38c961a5e9d9637c69dec53695c4bf2b2b3c53e8239deba242cd710cd410f8",
+  "proposal": {
+    "id": "redesign-2026-11-01T14-45-37-039Z",
+    "out": "<GLANCE_ROOT>/runs/redesign-2026-11-01T14-45-37-039Z",
+    "status": "proposed",
+    "outcome": "changed",
+    "summary": "Added click-only BBC presets on Home, reducing the observed five-input path to one. Enlarged menu, preset and Back targets to 64 pixels high within bounds. Preserved existing routes, styling and Climate behavior. Runtime verification was not performed.",
+    "rawSourceHash": "6ce7f67b6eb6ffa030b2d6107edaaad9f9c83b48a24c3d8547001ef6cb481b26",
+    "reconstructed": true,
+    "parentHash": "5b38c961a5e9d9637c69dec53695c4bf2b2b3c53e8239deba242cd710cd410f8",
+    "uiHash": "1dddf07355a4f9363c40b283c7e51e0a5964085745e9c2b6c387ae2364fb8432"
+  },
+  "comparison": {
+    "before": {
+      "radioActions": 5,
+      "radioSmallTargets": 5,
+      "climateActions": 2
+    },
+    "after": {
+      "radioActions": 1,
+      "radioSmallTargets": 0,
+      "climateActions": 6
+    },
+    "climateInputDelta": 4,
+    "improved": true
+  },
+  "warnings": [
+    {
+      "code": "climate-input-increase",
+      "before": 2,
+      "after": 6,
+      "delta": 4,
+      "message": "Climate succeeded with its passenger invariant, but this fresh trial used more inputs. This does not fail the functional acceptance criterion; retain and inspect the trace."
+    }
+  ],
+  "evidence": "docs/build/cycles/cycle-2026-11-01T14-44-11-634Z",
+  "finishedAt": "2026-11-01T14:48:02.482Z",
+  "uiHash": "1dddf07355a4f9363c40b283c7e51e0a5964085745e9c2b6c387ae2364fb8432"
+}

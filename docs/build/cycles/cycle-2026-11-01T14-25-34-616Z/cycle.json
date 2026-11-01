@@ -1,0 +1,66 @@
+{
+  "id": "cycle-2026-11-01T14-25-34-616Z",
+  "out": "<GLANCE_ROOT>/runs/cycle-2026-11-01T14-25-34-616Z",
+  "status": "succeeded",
+  "stage": "already-optimized",
+  "startedAt": "2026-11-01T14:25:34.619Z",
+  "runs": [
+    {
+      "label": "baseline-radio",
+      "id": "2026-11-01T14-25-36-888Z-radio-baseline",
+      "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+      "success": true,
+      "actions": 1,
+      "failure": null
+    },
+    {
+      "label": "baseline-climate",
+      "id": "2026-11-01T14-25-54-767Z-climate-regression",
+      "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+      "success": true,
+      "actions": 2,
+      "failure": null
+    },
+    {
+      "label": "retest-radio",
+      "id": "2026-11-01T14-26-56-234Z-radio-revised",
+      "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+      "success": true,
+      "actions": 1,
+      "failure": null
+    },
+    {
+      "label": "retest-climate",
+      "id": "2026-11-01T14-27-13-234Z-climate-regression",
+      "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+      "success": true,
+      "actions": 2,
+      "failure": null
+    }
+  ],
+  "updatedAt": "2026-11-01T14:27:37.608Z",
+  "parentHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+  "proposal": {
+    "id": "redesign-2026-11-01T14-26-20-524Z",
+    "out": "<GLANCE_ROOT>/runs/redesign-2026-11-01T14-26-20-524Z",
+    "status": "proposed",
+    "outcome": "already_optimized",
+    "summary": "Unchanged: the verified radio path takes one input, with zero backtracks or small targets. No navigation or target-size improvement is evidenced.",
+    "parentHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251",
+    "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251"
+  },
+  "comparison": {
+    "before": {
+      "radioActions": 1,
+      "climateActions": 2
+    },
+    "after": {
+      "radioActions": 1,
+      "climateActions": 2
+    },
+    "improved": false
+  },
+  "evidence": "docs/build/cycles/cycle-2026-11-01T14-25-34-616Z",
+  "finishedAt": "2026-11-01T14:27:37.608Z",
+  "uiHash": "d5bf57b22118056b507f573e211f190715c740efe3410157a0290021a952b251"
+}

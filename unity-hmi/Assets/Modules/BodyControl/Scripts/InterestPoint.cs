@@ -154,7 +154,7 @@ namespace Modules.BodyControl.Scripts
             BodyPart.Trunk => _carData.TrunkOpen,
             BodyPart.DriverDoor => _carData.DriverDoorOpen,
             BodyPart.PassengerDoor => _carData.PassengerDoorOpen,
-            _ => false,
+            _ => _isOpened,
         };
 
         private void SetBoundState(bool value)

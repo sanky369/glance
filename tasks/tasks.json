@@ -2,7 +2,9 @@
   "radio": {
     "instruction": "Tune the radio to BBC Radio 2.",
     "field": "stationId",
-    "expected": "radio_2"
+    "expected": "radio_2",
+    "title": "BBC Radio 2",
+    "category": "Media"
   },
   "climate": {
     "instruction": "Set the driver cabin temperature to 21 degrees Celsius. Keep the passenger temperature unchanged.",
@@ -10,6 +12,302 @@
     "expected": 21,
     "invariants": {
       "passengerTemperature": 22
+    },
+    "title": "Driver temperature",
+    "category": "Climate"
+  },
+  "trunk": {
+    "title": "Open trunk",
+    "category": "Body",
+    "instruction": "Open the trunk. Leave all doors closed.",
+    "field": "trunkOpen",
+    "expected": true,
+    "invariants": {
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
     }
+  },
+  "driver-door": {
+    "title": "Open driver door",
+    "category": "Body",
+    "instruction": "Open the driver door. Leave the other doors and trunk unchanged.",
+    "field": "driverDoorOpen",
+    "expected": true,
+    "invariants": {
+      "trunkOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
+    }
+  },
+  "passenger-door": {
+    "title": "Open passenger door",
+    "category": "Body",
+    "instruction": "Open the passenger door. Leave the other doors and trunk unchanged.",
+    "field": "passengerDoorOpen",
+    "expected": true,
+    "invariants": {
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
+    }
+  },
+  "close-all": {
+    "title": "Close all body parts",
+    "category": "Body",
+    "instruction": "Close all open body parts, including the hood, trunk, charging port and every door.",
+    "field": "allBodyPartsClosed",
+    "expected": true,
+    "reset": {
+      "doorsOpen": true
+    },
+    "verificationNote": "The reset fixture opens every live InterestPoint, including parts without a CarData field. Success waits for every local part animation to finish closed."
+  },
+  "driving": {
+    "title": "Driving simulation",
+    "category": "Driving",
+    "instruction": "Open the driving assistance view and let the driving simulation run.",
+    "field": "simulationRunning",
+    "expected": true,
+    "invariants": {
+      "activeScene": "ADAS"
+    }
+  },
+  "cluster": {
+    "title": "Instrument cluster",
+    "category": "Driving",
+    "instruction": "Open the instrument cluster.",
+    "field": "activeScene",
+    "expected": "Cluster"
+  },
+  "gear-drive": {
+    "title": "Select Drive",
+    "category": "Driving",
+    "instruction": "Select Drive (D) on the visible gear selector.",
+    "field": "gearSelection",
+    "expected": "D",
+    "invariants": {
+      "activeScene": "ADAS"
+    },
+    "reset": {
+      "startScene": "BodyControl"
+    },
+    "verificationNote": "Verifies actual selected gear UI state and scene. The template does not write CarData.CurrentGear or simulate selected-gear vehicle physics; Reverse does not prove physical reversing."
+  },
+  "gear-neutral": {
+    "title": "Select Neutral",
+    "category": "Driving",
+    "instruction": "Select Neutral (N) on the visible gear selector.",
+    "field": "gearSelection",
+    "expected": "N",
+    "invariants": {
+      "activeScene": "ADAS"
+    },
+    "reset": {
+      "startScene": "ADAS"
+    },
+    "verificationNote": "Verifies actual selected gear UI state and scene. The template does not write CarData.CurrentGear or simulate selected-gear vehicle physics; Reverse does not prove physical reversing."
+  },
+  "gear-reverse": {
+    "title": "Select Reverse",
+    "category": "Driving",
+    "instruction": "Select Reverse (R) on the visible gear selector.",
+    "field": "gearSelection",
+    "expected": "R",
+    "invariants": {
+      "activeScene": "ADAS"
+    },
+    "reset": {
+      "startScene": "ADAS"
+    },
+    "verificationNote": "Verifies actual selected gear UI state and scene. The template does not write CarData.CurrentGear or simulate selected-gear vehicle physics; Reverse does not prove physical reversing."
+  },
+  "fan": {
+    "title": "Fan level 6",
+    "category": "Climate",
+    "instruction": "Set the cabin fan level to 6. Keep both temperature settings unchanged.",
+    "field": "fanLevel",
+    "expected": 6,
+    "invariants": {
+      "driverTemperature": 22,
+      "passengerTemperature": 22
+    }
+  },
+  "ac-off": {
+    "title": "Air conditioning off",
+    "category": "Climate",
+    "instruction": "Turn off the air conditioning.",
+    "field": "airConditioningOn",
+    "expected": false
+  },
+  "auto": {
+    "title": "Automatic climate",
+    "category": "Climate",
+    "instruction": "Enable automatic climate control.",
+    "field": "autoOn",
+    "expected": true,
+    "invariants": {
+      "driverTemperature": 21,
+      "passengerTemperature": 21,
+      "fanLevel": 7,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0
+    }
+  },
+  "driver-seat": {
+    "title": "Driver seat heating",
+    "category": "Climate",
+    "instruction": "Set driver seat heating to level 1, leaving passenger seat heating off.",
+    "field": "driverSeatHeat",
+    "expected": 1,
+    "invariants": {
+      "passengerSeatHeat": 0
+    }
+  },
+  "passenger-seat": {
+    "title": "Passenger seat heating",
+    "category": "Climate",
+    "instruction": "Set passenger seat heating to level 1, leaving driver seat heating off.",
+    "field": "passengerSeatHeat",
+    "expected": 1,
+    "invariants": {
+      "driverSeatHeat": 0
+    }
+  },
+  "theme": {
+    "title": "Second color theme",
+    "category": "Appearance",
+    "instruction": "Select the second color theme in the visible color selector.",
+    "field": "themeIndex",
+    "expected": 1,
+    "reset": {
+      "startScene": "BodyControl"
+    }
+  },
+  "music-pause": {
+    "title": "Pause music",
+    "category": "Media",
+    "instruction": "Pause music playback.",
+    "field": "musicPlaying",
+    "expected": false,
+    "reset": {
+      "musicPlaying": true
+    }
+  },
+  "music-next": {
+    "title": "Next music track",
+    "category": "Media",
+    "instruction": "Advance the music player to the next track, keeping playback paused.",
+    "field": "musicTrackTitle",
+    "expected": "If You Say Pi, I Say Po",
+    "invariants": {
+      "musicPlaying": false
+    },
+    "reset": {
+      "musicPlaying": false
+    },
+    "verificationNote": "Playback starts paused so automatic track progression cannot satisfy this task."
+  },
+  "hood": {
+    "title": "Open hood",
+    "category": "Body",
+    "instruction": "Open hood. Leave the other body parts closed.",
+    "field": "hoodOpen",
+    "expected": true,
+    "verificationNote": "Verifies the actual local InterestPoint open state after its animation has settled.",
+    "invariants": {
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
+    },
+    "available": false,
+    "availabilityNote": "The loaded Industry HMI Template instantiates only trunk and two front-door InterestPoint controls. This enum-only part has no interactive control in the sample scene."
+  },
+  "charging-port": {
+    "title": "Open charging port",
+    "category": "Body",
+    "instruction": "Open charging port. Leave the other body parts closed.",
+    "field": "chargingPortOpen",
+    "expected": true,
+    "verificationNote": "Verifies the actual local InterestPoint open state after its animation has settled.",
+    "invariants": {
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
+    },
+    "available": false,
+    "availabilityNote": "The loaded Industry HMI Template instantiates only trunk and two front-door InterestPoint controls. This enum-only part has no interactive control in the sample scene."
+  },
+  "rear-left-door": {
+    "title": "Open rear left door",
+    "category": "Body",
+    "instruction": "Open rear left door. Leave the other body parts closed.",
+    "field": "rearLeftDoorOpen",
+    "expected": true,
+    "verificationNote": "Verifies the actual local InterestPoint open state after its animation has settled.",
+    "invariants": {
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearRightDoorOpen": false,
+      "activeScene": "BodyControl"
+    },
+    "available": false,
+    "availabilityNote": "The loaded Industry HMI Template instantiates only trunk and two front-door InterestPoint controls. This enum-only part has no interactive control in the sample scene."
+  },
+  "rear-right-door": {
+    "title": "Open rear right door",
+    "category": "Body",
+    "instruction": "Open rear right door. Leave the other body parts closed.",
+    "field": "rearRightDoorOpen",
+    "expected": true,
+    "verificationNote": "Verifies the actual local InterestPoint open state after its animation has settled.",
+    "invariants": {
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "activeScene": "BodyControl"
+    },
+    "available": false,
+    "availabilityNote": "The loaded Industry HMI Template instantiates only trunk and two front-door InterestPoint controls. This enum-only part has no interactive control in the sample scene."
+  },
+  "gear-parking": {
+    "title": "Select Parking",
+    "category": "Driving",
+    "instruction": "Select Parking (P) on the visible gear selector.",
+    "field": "gearSelection",
+    "expected": "P",
+    "invariants": {
+      "activeScene": "BodyControl"
+    },
+    "reset": {
+      "startScene": "ADAS"
+    },
+    "verificationNote": "Verifies selected gear UI and resulting scene only; no claim about vehicle physics, reversing or physical parking."
   }
 }

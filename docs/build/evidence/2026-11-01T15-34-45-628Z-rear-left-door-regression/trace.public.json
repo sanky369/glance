@@ -1,0 +1,4065 @@
+[
+  {
+    "call": 0,
+    "screenshot": "000.png",
+    "revision": "281df2a8bdb236d28e3e77e5c70ddece5bb6c9a0872bb1cae01ada1c1dc4b131",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR CLOSED",
+          "x": 562.727966,
+          "y": 310.3536,
+          "endX": 562.727966,
+          "endY": 310.3536,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.5504,
+          "y": 310.806549,
+          "endX": 774.5504,
+          "endY": 310.806549,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.8443,
+          "y": 320.897278,
+          "endX": 740.8443,
+          "endY": 320.897278,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547291950,
+    "apiLatencyMs": 1448,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.04
+            },
+            {
+              "value": "a1",
+              "probability": 0.02
+            },
+            {
+              "value": "a2",
+              "probability": 0.02
+            },
+            {
+              "value": "a3",
+              "probability": 0.02
+            },
+            {
+              "value": "a4",
+              "probability": 0.05
+            },
+            {
+              "value": "a5",
+              "probability": 0.09
+            },
+            {
+              "value": "a6",
+              "probability": 0.02
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.19
+            },
+            {
+              "value": "a9",
+              "probability": 0.15
+            },
+            {
+              "value": "a10",
+              "probability": 0.04
+            },
+            {
+              "value": "a11",
+              "probability": 0.02
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.11
+            },
+            {
+              "value": "a19",
+              "probability": 0.1
+            },
+            {
+              "value": "report_done",
+              "probability": 0.04
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.15
+        }
+      ],
+      "usage": {
+        "input_tokens": 1506,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1164,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1164,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1506
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "If You Say Pi, I Say Po",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "afterScreenshot": "post-000.png"
+  },
+  {
+    "call": 1,
+    "screenshot": "001.png",
+    "revision": "281df2a8bdb236d28e3e77e5c70ddece5bb6c9a0872bb1cae01ada1c1dc4b131",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR CLOSED",
+          "x": 562.727966,
+          "y": 310.3536,
+          "endX": 562.727966,
+          "endY": 310.3536,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.5504,
+          "y": 310.806549,
+          "endX": 774.5504,
+          "endY": 310.806549,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.8443,
+          "y": 320.897278,
+          "endX": 740.8443,
+          "endY": 320.897278,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "If You Say Pi, I Say Po",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547301934,
+    "apiLatencyMs": 703,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0.01
+            },
+            {
+              "value": "a5",
+              "probability": 0.01
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0.01
+            },
+            {
+              "value": "a8",
+              "probability": 0.29
+            },
+            {
+              "value": "a9",
+              "probability": 0.19
+            },
+            {
+              "value": "a10",
+              "probability": 0.05
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.15
+            },
+            {
+              "value": "a19",
+              "probability": 0.18
+            },
+            {
+              "value": "report_done",
+              "probability": 0.02
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.26
+        }
+      ],
+      "usage": {
+        "input_tokens": 1514,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1172,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1172,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1514
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "afterScreenshot": "post-001.png"
+  },
+  {
+    "call": 2,
+    "screenshot": "002.png",
+    "revision": "281df2a8bdb236d28e3e77e5c70ddece5bb6c9a0872bb1cae01ada1c1dc4b131",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR CLOSED",
+          "x": 562.727966,
+          "y": 310.3536,
+          "endX": 562.727966,
+          "endY": 310.3536,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.5504,
+          "y": 310.806549,
+          "endX": 774.5504,
+          "endY": 310.806549,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.8443,
+          "y": 320.897278,
+          "endX": 740.8443,
+          "endY": 320.897278,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547311135,
+    "apiLatencyMs": 1288,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a19",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0.01
+            },
+            {
+              "value": "a5",
+              "probability": 0.02
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0.01
+            },
+            {
+              "value": "a8",
+              "probability": 0.16
+            },
+            {
+              "value": "a9",
+              "probability": 0.16
+            },
+            {
+              "value": "a10",
+              "probability": 0.16
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.12
+            },
+            {
+              "value": "a19",
+              "probability": 0.19
+            },
+            {
+              "value": "report_done",
+              "probability": 0.06
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.02
+            }
+          ],
+          "confidence": 0.15
+        }
+      ],
+      "usage": {
+        "input_tokens": 1521,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1179,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1179,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1521
+      }
+    },
+    "choice": "a19",
+    "action": {
+      "id": "a19",
+      "label": "Rotate vehicle view right",
+      "x": 640,
+      "y": 360,
+      "endX": 760,
+      "endY": 360,
+      "duration": 0.6,
+      "width": 240,
+      "height": 80
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "afterScreenshot": "post-002.png"
+  },
+  {
+    "call": 3,
+    "screenshot": "003.png",
+    "revision": "a5a54648e6f2ef32b44e25cf4aca47cb52151ab4549d322aa65e9abb58f6b56b",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR CLOSED",
+          "x": 508.562622,
+          "y": 304.397034,
+          "endX": 508.562622,
+          "endY": 304.397034,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 722.873657,
+          "y": 316.269379,
+          "endX": 722.873657,
+          "endY": 316.269379,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a7",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a10",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a11",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a15",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": true,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547320935,
+    "apiLatencyMs": 4439,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a4",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.03
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.36
+            },
+            {
+              "value": "a5",
+              "probability": 0.03
+            },
+            {
+              "value": "a6",
+              "probability": 0.02
+            },
+            {
+              "value": "a7",
+              "probability": 0.28
+            },
+            {
+              "value": "a8",
+              "probability": 0.1
+            },
+            {
+              "value": "a9",
+              "probability": 0.13
+            },
+            {
+              "value": "a10",
+              "probability": 0.01
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "a14",
+              "probability": 0
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0
+            },
+            {
+              "value": "a17",
+              "probability": 0
+            },
+            {
+              "value": "a18",
+              "probability": 0.01
+            },
+            {
+              "value": "report_done",
+              "probability": 0
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.33
+        }
+      ],
+      "usage": {
+        "input_tokens": 1508,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1175,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1175,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1508
+      }
+    },
+    "choice": "a4",
+    "action": {
+      "id": "a4",
+      "label": "PASSENGER DOOR CLOSED",
+      "x": 508.562622,
+      "y": 304.397034,
+      "endX": 508.562622,
+      "endY": 304.397034,
+      "duration": 0.12,
+      "width": 34.3408051,
+      "height": 39.99998
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "afterScreenshot": "post-003.png"
+  },
+  {
+    "call": 4,
+    "screenshot": "004.png",
+    "revision": "23cdeda7c858f0578b8facfc2a9fd8a580f4b97c958de10ef6bcb7aeed47a827",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 426.6287,
+          "y": 306.191284,
+          "endX": 426.6287,
+          "endY": 306.191284,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 766.2717,
+          "y": 313.166473,
+          "endX": 766.2717,
+          "endY": 313.166473,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 656.3617,
+          "y": 321.739349,
+          "endX": 656.3617,
+          "endY": 321.739349,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547333892,
+    "apiLatencyMs": 2306,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0.02
+            },
+            {
+              "value": "a5",
+              "probability": 0.02
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0.01
+            },
+            {
+              "value": "a8",
+              "probability": 0.47
+            },
+            {
+              "value": "a9",
+              "probability": 0.15
+            },
+            {
+              "value": "a10",
+              "probability": 0.11
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.03
+            },
+            {
+              "value": "a19",
+              "probability": 0.06
+            },
+            {
+              "value": "report_done",
+              "probability": 0.02
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 0.44
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  },
+  {
+    "call": 5,
+    "screenshot": "005.png",
+    "revision": "28c1c551c2cd42b8eb39b9a60fd8a3b6d696eaf886e60a3854d33f34e7104039",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 454.492065,
+          "y": 309.582245,
+          "endX": 454.492065,
+          "endY": 309.582245,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.3473,
+          "y": 311.1337,
+          "endX": 774.3473,
+          "endY": 311.1337,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 729.7258,
+          "y": 321.080322,
+          "endX": 729.7258,
+          "endY": 321.080322,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547340457,
+    "apiLatencyMs": 1296,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.1
+            },
+            {
+              "value": "a5",
+              "probability": 0.14
+            },
+            {
+              "value": "a6",
+              "probability": 0.03
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.28
+            },
+            {
+              "value": "a9",
+              "probability": 0.11
+            },
+            {
+              "value": "a10",
+              "probability": 0.13
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.01
+            },
+            {
+              "value": "a19",
+              "probability": 0.02
+            },
+            {
+              "value": "report_done",
+              "probability": 0.05
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.02
+            }
+          ],
+          "confidence": 0.25
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  },
+  {
+    "call": 6,
+    "screenshot": "006.png",
+    "revision": "0d1bff4ed47d5045ff651cdb69e98db8bf6a163e23857103bb68f423e76c4502",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 459.054352,
+          "y": 309.970581,
+          "endX": 459.054352,
+          "endY": 309.970581,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.5388,
+          "y": 310.855865,
+          "endX": 774.5388,
+          "endY": 310.855865,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 739.1775,
+          "y": 320.926178,
+          "endX": 739.1775,
+          "endY": 320.926178,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547346010,
+    "apiLatencyMs": 1515,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.05
+            },
+            {
+              "value": "a5",
+              "probability": 0.03
+            },
+            {
+              "value": "a6",
+              "probability": 0.02
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.31
+            },
+            {
+              "value": "a9",
+              "probability": 0.1
+            },
+            {
+              "value": "a10",
+              "probability": 0.14
+            },
+            {
+              "value": "a11",
+              "probability": 0.02
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.06
+            },
+            {
+              "value": "a19",
+              "probability": 0.08
+            },
+            {
+              "value": "report_done",
+              "probability": 0.06
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.28
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  },
+  {
+    "call": 7,
+    "screenshot": "007.png",
+    "revision": "b193da384d62da7bc1166902b65924e0bad0391705d317e13f1b1dc39f3f05da",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 459.774017,
+          "y": 310.0293,
+          "endX": 459.774017,
+          "endY": 310.0293,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.549255,
+          "y": 310.812836,
+          "endX": 774.549255,
+          "endY": 310.812836,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.631653,
+          "y": 320.90097,
+          "endX": 740.631653,
+          "endY": 320.90097,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547351784,
+    "apiLatencyMs": 999,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.06
+            },
+            {
+              "value": "a5",
+              "probability": 0.04
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.46
+            },
+            {
+              "value": "a9",
+              "probability": 0.1
+            },
+            {
+              "value": "a10",
+              "probability": 0.12
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.02
+            },
+            {
+              "value": "a19",
+              "probability": 0.02
+            },
+            {
+              "value": "report_done",
+              "probability": 0.03
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.02
+            }
+          ],
+          "confidence": 0.43
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  },
+  {
+    "call": 8,
+    "screenshot": "008.png",
+    "revision": "e887d3d406b8b9df42b0c791ac95291f98bfdb546a316316e524c88c7e865201",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 459.864044,
+          "y": 310.036621,
+          "endX": 459.864044,
+          "endY": 310.036621,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.550232,
+          "y": 310.807465,
+          "endX": 774.550232,
+          "endY": 310.807465,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.812866,
+          "y": 320.897827,
+          "endX": 740.812866,
+          "endY": 320.897827,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547357033,
+    "apiLatencyMs": 1816,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0.01
+            },
+            {
+              "value": "a4",
+              "probability": 0.03
+            },
+            {
+              "value": "a5",
+              "probability": 0.08
+            },
+            {
+              "value": "a6",
+              "probability": 0.02
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.41
+            },
+            {
+              "value": "a9",
+              "probability": 0.1
+            },
+            {
+              "value": "a10",
+              "probability": 0.11
+            },
+            {
+              "value": "a11",
+              "probability": 0.02
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.03
+            },
+            {
+              "value": "a19",
+              "probability": 0.03
+            },
+            {
+              "value": "report_done",
+              "probability": 0.04
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.38
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  },
+  {
+    "call": 9,
+    "screenshot": "009.png",
+    "revision": "d317de3ab3baac9d5a7e2abaac9baed12f00002703e646a009228a22fd7981df",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "PASSENGER DOOR OPEN",
+          "x": 459.878174,
+          "y": 310.03775,
+          "endX": 459.878174,
+          "endY": 310.03775,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a5",
+          "label": "DRIVER DOOR CLOSED",
+          "x": 774.550354,
+          "y": 310.806641,
+          "endX": 774.550354,
+          "endY": 310.806641,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a6",
+          "label": "TRUNK CLOSED",
+          "x": 740.8411,
+          "y": 320.897339,
+          "endX": 740.8411,
+          "endY": 320.897339,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 39.99998
+        },
+        {
+          "id": "a7",
+          "label": "Close All",
+          "x": 640,
+          "y": 578.8366,
+          "endX": 640,
+          "endY": 578.8366,
+          "duration": 0.12,
+          "width": 64.57511,
+          "height": 41.7657127
+        },
+        {
+          "id": "a8",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a9",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a11",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a12",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a13",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a14",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a15",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a16",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a17",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a18",
+          "label": "Rotate vehicle view left",
+          "x": 640,
+          "y": 360,
+          "endX": 520,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        },
+        {
+          "id": "a19",
+          "label": "Rotate vehicle view right",
+          "x": 640,
+          "y": 360,
+          "endX": 760,
+          "endY": 360,
+          "duration": 0.6,
+          "width": 240,
+          "height": 80
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/BodyControl",
+      "activeScene": "BodyControl",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": true,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "P",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": false,
+      "speedKph": 11.8842554
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793547363114,
+    "apiLatencyMs": 1118,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a8",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0.01
+            },
+            {
+              "value": "a1",
+              "probability": 0.01
+            },
+            {
+              "value": "a2",
+              "probability": 0.01
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0.02
+            },
+            {
+              "value": "a5",
+              "probability": 0.02
+            },
+            {
+              "value": "a6",
+              "probability": 0.01
+            },
+            {
+              "value": "a7",
+              "probability": 0.02
+            },
+            {
+              "value": "a8",
+              "probability": 0.29
+            },
+            {
+              "value": "a9",
+              "probability": 0.15
+            },
+            {
+              "value": "a10",
+              "probability": 0.16
+            },
+            {
+              "value": "a11",
+              "probability": 0.01
+            },
+            {
+              "value": "a12",
+              "probability": 0.01
+            },
+            {
+              "value": "a13",
+              "probability": 0.01
+            },
+            {
+              "value": "a14",
+              "probability": 0.01
+            },
+            {
+              "value": "a15",
+              "probability": 0.01
+            },
+            {
+              "value": "a16",
+              "probability": 0.01
+            },
+            {
+              "value": "a17",
+              "probability": 0.01
+            },
+            {
+              "value": "a18",
+              "probability": 0.07
+            },
+            {
+              "value": "a19",
+              "probability": 0.11
+            },
+            {
+              "value": "report_done",
+              "probability": 0.04
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0.01
+            }
+          ],
+          "confidence": 0.26
+        }
+      ],
+      "usage": {
+        "input_tokens": 1537,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1195,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1195,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1537
+      }
+    },
+    "choice": "a8",
+    "action": {
+      "id": "a8",
+      "label": "Unlabelled control",
+      "x": 211.2575,
+      "y": 666.6666,
+      "endX": 211.2575,
+      "endY": 666.6666,
+      "duration": 0.12,
+      "width": 14.3086691,
+      "height": 16.66667
+    },
+    "stale": true
+  }
+]

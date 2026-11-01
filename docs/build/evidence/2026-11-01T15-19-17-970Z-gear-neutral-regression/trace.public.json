@@ -1,0 +1,339 @@
+[
+  {
+    "call": 0,
+    "screenshot": "000.png",
+    "revision": "59a5ddf2879523ad073c4f9f3df8ce70485252f97b59dc80ca2d99a1200ac640",
+    "observation": {
+      "width": 1280,
+      "height": 720,
+      "controls": [
+        {
+          "id": "a0",
+          "label": "P",
+          "x": 39.4918976,
+          "y": 48.3333321,
+          "endX": 39.4918976,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a1",
+          "label": "R",
+          "x": 84.1349945,
+          "y": 48.3333321,
+          "endX": 84.1349945,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a2",
+          "label": "N",
+          "x": 128.778061,
+          "y": 48.3333321,
+          "endX": 128.778061,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a3",
+          "label": "D",
+          "x": 173.421127,
+          "y": 48.3333321,
+          "endX": 173.421127,
+          "endY": 48.3333321,
+          "duration": 0.12,
+          "width": 33.19613,
+          "height": 50.00002
+        },
+        {
+          "id": "a4",
+          "label": "Unlabelled control",
+          "x": 211.2575,
+          "y": 666.6666,
+          "endX": 211.2575,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a5",
+          "label": "Unlabelled control",
+          "x": 244.167465,
+          "y": 666.6666,
+          "endX": 244.167465,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 34.3408051,
+          "height": 40
+        },
+        {
+          "id": "a6",
+          "label": "Unlabelled control",
+          "x": 277.077423,
+          "y": 666.6666,
+          "endX": 277.077423,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 14.3086691,
+          "height": 16.66667
+        },
+        {
+          "id": "a7",
+          "label": "Control",
+          "x": 346.584656,
+          "y": 666.6666,
+          "endX": 346.584656,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.811951,
+          "height": 40
+        },
+        {
+          "id": "a8",
+          "label": "ADAS",
+          "x": 456.699951,
+          "y": 666.6666,
+          "endX": 456.699951,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 95.52473,
+          "height": 40
+        },
+        {
+          "id": "a9",
+          "label": "Cluster",
+          "x": 566.4661,
+          "y": 666.6666,
+          "endX": 566.4661,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 101.113663,
+          "height": 40
+        },
+        {
+          "id": "a10",
+          "label": "Climate",
+          "x": 680.4948,
+          "y": 666.6666,
+          "endX": 680.4948,
+          "endY": 666.6666,
+          "duration": 0.12,
+          "width": 104.049805,
+          "height": 40
+        },
+        {
+          "id": "a11",
+          "label": "Radio",
+          "x": 1076.15588,
+          "y": 668.1957,
+          "endX": 1076.15588,
+          "endY": 668.1957,
+          "duration": 0.12,
+          "width": 138.984589,
+          "height": 41.01174
+        },
+        {
+          "id": "a12",
+          "label": "Visible color selector: drag left",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1195.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "id": "a13",
+          "label": "Visible color selector: drag right",
+          "x": 1223.91,
+          "y": 666.6666,
+          "endX": 1251.91,
+          "endY": 666.6666,
+          "duration": 0.5,
+          "width": 28,
+          "height": 28
+        }
+      ]
+    },
+    "before": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/ADAS",
+      "activeScene": "ADAS",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "D",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": true,
+      "speedKph": 23.652832
+    },
+    "requestStarted": true,
+    "apiStartedAt": 1793546364302,
+    "apiLatencyMs": 1141,
+    "response": {
+      "model": "gpt-6-luna",
+      "answers": [
+        {
+          "type": "choice",
+          "name": "next_action",
+          "choice": "a2",
+          "probabilities": [
+            {
+              "value": "a0",
+              "probability": 0
+            },
+            {
+              "value": "a1",
+              "probability": 0
+            },
+            {
+              "value": "a2",
+              "probability": 1
+            },
+            {
+              "value": "a3",
+              "probability": 0
+            },
+            {
+              "value": "a4",
+              "probability": 0
+            },
+            {
+              "value": "a5",
+              "probability": 0
+            },
+            {
+              "value": "a6",
+              "probability": 0
+            },
+            {
+              "value": "a7",
+              "probability": 0
+            },
+            {
+              "value": "a8",
+              "probability": 0
+            },
+            {
+              "value": "a9",
+              "probability": 0
+            },
+            {
+              "value": "a10",
+              "probability": 0
+            },
+            {
+              "value": "a11",
+              "probability": 0
+            },
+            {
+              "value": "a12",
+              "probability": 0
+            },
+            {
+              "value": "a13",
+              "probability": 0
+            },
+            {
+              "value": "report_done",
+              "probability": 0
+            },
+            {
+              "value": "stop_unable",
+              "probability": 0
+            }
+          ],
+          "confidence": 1
+        }
+      ],
+      "usage": {
+        "input_tokens": 1374,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 1091,
+          "cache_write_tokens_details": {
+            "ttl_30m_tokens": 1091,
+            "ttl_12h_tokens": 0
+          }
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1374
+      }
+    },
+    "choice": "a2",
+    "action": {
+      "id": "a2",
+      "label": "N",
+      "x": 128.778061,
+      "y": 48.3333321,
+      "endX": 128.778061,
+      "endY": 48.3333321,
+      "duration": 0.12,
+      "width": 33.19613,
+      "height": 50.00002
+    },
+    "executed": true,
+    "after": {
+      "stationId": "radio_1",
+      "driverTemperature": 22,
+      "passengerTemperature": 22,
+      "screenId": "Native/ADAS",
+      "activeScene": "ADAS",
+      "radioVisible": false,
+      "ready": true,
+      "trunkOpen": false,
+      "driverDoorOpen": false,
+      "passengerDoorOpen": false,
+      "hoodOpen": false,
+      "chargingPortOpen": false,
+      "rearLeftDoorOpen": false,
+      "rearRightDoorOpen": false,
+      "allBodyPartsClosed": false,
+      "resetPending": false,
+      "airConditioningOn": true,
+      "fanLevel": 5,
+      "autoOn": false,
+      "driverSeatHeat": 0,
+      "passengerSeatHeat": 0,
+      "gearSelection": "N",
+      "currentGear": "Parking",
+      "themeIndex": 0,
+      "musicPlaying": true,
+      "musicTrackTitle": "I Will Run To You",
+      "simulationPaused": false,
+      "simulationRunning": true,
+      "speedKph": 16.8934383
+    },
+    "afterScreenshot": "post-000.png"
+  }
+]
