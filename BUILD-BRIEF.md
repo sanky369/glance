@@ -1,6 +1,6 @@
 # Glance — agreed build brief
 
-1 November 2026 · Product scope. Unity template setup is now available in `unity-hmi/`; see `docs/unity-hmi/SETUP.md` for verified results and remaining integration work. The core Glance pipeline has not been implemented yet.
+1 November 2026 · Product scope. Unity template setup is now available in `unity-hmi/`; see `docs/unity-hmi/SETUP.md` for verified results and remaining integration work. The core Decisions → input → verification → Codex UI revision → fresh retest loop is now implemented and validated; see `README.md` and `docs/build/VALIDATION.md`.
 
 ## Product
 
@@ -58,16 +58,17 @@ Submit once per team by 17:00 using the route provided at the opening brief. Inc
 
 Suggested 90-second video: 0–10s problem/users; 10–30s actual Decisions choice, candidates and executed UI action; 30–42s measured evidence; 42–58s Codex input and actual diff; 58–78s fresh Decisions retest and climate check; 78–90s measured comparison, limits and contribution.
 
-## Current local state and unresolved dependencies
+## Current implementation status
 
-- Unity template 1.0.4 is running in the isolated `unity-hmi/` folder with Unity 6000.6.3f1 and CLI beta.15; Body Control, HVAC and ADAS render with advancing frames and zero errors at the recorded check. See `docs/unity-hmi/SETUP.md`.
-- User is building solo. Initial native pointer trials failed. A dedicated virtual-mouse driver now verifies Climate navigation and driver temperature at 21°C through actual UI input; see `docs/unity-hmi/POINTER-AUTOMATION.md`. This is a deterministic E2E check, not a live Decisions trial.
-- Template licences and third-party notices are preserved. Browser compatibility, player builds, a Glance UI edit/reload, resettable verifier bridge and real agent trials remain unverified.
-- Decisions API is now a core planned dependency, not an implemented integration. Current official docs name `gpt-6-luna` and `POST /v1/decisions`; use a named `choice` question and map its selected value to a current executable candidate. The API does not invent action arguments or operate Unity itself.
-- OpenAI project/model access and credentials remain unverified. Validate one real request early. Keep credentials server-side and out of traces. If access fails, retain the failure and clearly label any alternative; do not claim a Responses call demonstrates Decisions integration.
-- Prefer the locally controlled screenshot/candidate/executor loop. Decisions can consume the screenshot as inline image evidence; it does not need access to a hosted local app.
-- Submission destination is supplied during the opening brief and has not been obtained here.
-- Numbers in the original diagram (including 9→3 taps) are illustrative, not measured results.
+The core system is working locally: synthetic Unity radio UI, visible-control inventory, Decisions runner, independent state verification, deterministic scoring, reviewed Codex UI proposal, fresh retests, and an evidence dashboard.
+
+- Radio baseline: 3/3 passed at 5 inputs; revised: 4/4 passed at 1 input. Audited distinct screen counts include final confirmation: 6→2. Original metrics are retained alongside corrected reporting.
+- Post-redesign climate regression passed: driver 21°C, passenger unchanged at 22°C.
+- `npm start` runs the local dashboard; `npm run replay` loads archived evidence without credentials or Unity. The dashboard was exercised in the existing Chrome session.
+- The project key is stored only in ignored `.env.local`. No credentials are published.
+- A 59-second captioned demo replay, public evidence, Codex diff, setup and validation notes are under `docs/build/`.
+- The coordinator uses dependency-free TypeScript/Node; the initial dashboard uses plain HTML instead of the proposed React/Vite stack to preserve build time.
+- Submission destination, team/contact details and submission receipt remain user/event responsibilities. Hosted deployment, arbitrary HMI ingestion, Player/Web builds, voice and image generation are not implemented.
 
 ## Sources
 

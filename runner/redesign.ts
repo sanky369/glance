@@ -1,0 +1,27 @@
+import {mkdtemp,copyFile,readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {resolve} from 'node:path';
+import {spawn} from 'node:child_process';
+import {root,project} from './unity.ts';
+const id=new Date().toISOString().replace(/[:.]/g,'-'),out=resolve(root,'runs','redesign-'+id);await mkdir(out,{recursive:true});
+const stage=await mkdtemp(resolve(tmpdir(),'glance-ui-'));
+const target=resolve(project,'Assets/Glance/UI/GlanceRadioUI.cs');
+await copyFile(target,resolve(stage,'GlanceRadioUI.cs'));await copyFile(resolve(root,'findings.json'),resolve(stage,'findings.json'));
+const instructions=`You are the UI redesign component of Glance. You own ONLY GlanceRadioUI.cs in this isolated staging folder. You are not alone in the larger project; preserve all other work. No delegation. Read findings.json. Reduce the measured five-input radio path by adding immediately visible, generously sized BBC Radio 1/2/3 preset buttons to Home. Keep Media navigation, all three station choices, Home and Climate and existing functionality. Enlarge radio targets to at least 64 reference pixels in height. Do not edit findings.json or create any other file. Do not change Mount, Awake, Update, Tune, Name, Parent, Box, Label or Button methods, GlanceState references, public signatures or state semantics. Change only Show and/or Menu presentation code. Never select a station without a user click. No new dependencies. Make the actual edit now and summarize it. C# file uses Unity uGUI; no Unity build is possible in this isolated folder.`;
+const before=await readFile(target,'utf8');
+const prompt='Do not call tools or read files. All input is included below. Return JSON with source (complete revised C# file) and summary. '+instructions+'\nFINDINGS:\n'+await readFile(resolve(root,'findings.json'),'utf8')+'\nSOURCE:\n'+before;
+const schema=resolve(out,'proposal-schema.json');await writeFile(schema,JSON.stringify({type:'object',properties:{source:{type:'string'},summary:{type:'string'}},required:['source','summary'],additionalProperties:false}));
+await writeFile(resolve(out,'prompt.txt'),prompt);
+const env={...process.env};delete env.OPENAI_API_KEY;for(const k of Object.keys(env))if(k.startsWith('CODEX_')&&k!=='CODEX_HOME')delete env[k];
+const proc=spawn('codex',['exec','--ignore-user-config','--disable','apps','--disable','code_mode_host','--ephemeral','--skip-git-repo-check','--sandbox','workspace-write','--model','gpt-6.1-sol','-c','model_reasoning_effort="medium"','-C',stage,'--output-schema',schema,'-o',resolve(out,'proposal.json'),'--json',prompt],{env,cwd:stage,stdio:['ignore','pipe','pipe']});
+let events='',errors='';proc.stdout.on('data',b=>{events+=b.toString();});proc.stderr.on('data',b=>{errors+=b.toString();});
+const timer=setTimeout(()=>proc.kill('SIGTERM'),120000);
+const code=await new Promise((r,j)=>{proc.on('error',j);proc.on('close',r)});clearTimeout(timer);
+await writeFile(resolve(out,'codex-events.jsonl'),events);await writeFile(resolve(out,'codex-stderr.txt'),errors);
+if(code!==0)throw new Error('Codex redesign did not complete; inspect local run evidence');
+const entries=await readdir(stage);if(entries.some(f=>!['GlanceRadioUI.cs','findings.json'].includes(f)))throw new Error('Unexpected staging file');
+const proposal=JSON.parse(await readFile(resolve(out,'proposal.json'),'utf8'));const after=proposal.source;if(typeof after!=='string')throw new Error('Invalid source proposal');
+if(before===after)throw new Error('Codex made no UI change');
+// Apply only after review, so the product can show the proposed source and diff.
+await writeFile(resolve(out,'before.cs'),before);await writeFile(resolve(out,'after.cs'),after);
+console.log(JSON.stringify({id:'redesign-'+id,stage,out,status:'proposed',instructions:'Review before.cs/after.cs; copy only after.cs to Assets/Glance/UI/GlanceRadioUI.cs after checking the permitted methods.'}));

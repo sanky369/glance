@@ -29,3 +29,6 @@
 /docs/unity-hmi/evidence/**/trace.json
 __pycache__/
 *.pyc
+
+/runs/
+/node_modules/

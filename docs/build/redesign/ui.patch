@@ -1,0 +1,42 @@
+--- runs/redesign-2026-11-01T13-25-57-564Z/before.cs	2026-11-01 13:26:49
++++ runs/redesign-2026-11-01T13-25-57-564Z/after.cs	2026-11-01 13:26:49
+@@ -40,24 +40,32 @@
+             Page=page;
+             foreach(Transform t in content) { t.gameObject.SetActive(false); Destroy(t.gameObject); }
+             if(page=="Climate") { Label(content,"Use the driver temperature handle below",Vector2.zero,new Vector2(700,50),22); return; }
+-            if(page=="Home") { Menu("Media",-180,()=>Show("Media")); Menu("Vehicle",0,()=>Show("Vehicle"));Menu("Settings",180,()=>Show("Settings")); }
++            if(page=="Home")
++            {
++                Button(content,"BBC Radio 1",new Vector2(-230,40),new Vector2(210,72),()=>Tune("radio_1"));
++                Button(content,"BBC Radio 2",new Vector2(0,40),new Vector2(210,72),()=>Tune("radio_2"));
++                Button(content,"BBC Radio 3",new Vector2(230,40),new Vector2(210,72),()=>Tune("radio_3"));
++                Button(content,"Media",new Vector2(-230,-48),new Vector2(210,64),()=>Show("Media"));
++                Button(content,"Vehicle",new Vector2(0,-48),new Vector2(210,64),()=>Show("Vehicle"));
++                Button(content,"Settings",new Vector2(230,-48),new Vector2(210,64),()=>Show("Settings"));
++            }
+             else if(page=="Media") { Menu("Sources",-180,()=>Show("Sources"));Menu("Library",0,()=>Show("Library"));Menu("Audio",180,()=>Show("Audio")); }
+             else if(page=="Sources") { Menu("FM radio",-180,()=>Show("FM"));Menu("Bluetooth",0,()=>Show("Bluetooth"));Menu("USB",180,()=>Show("USB")); }
+             else if(page=="FM") { Menu("Presets",-140,()=>Show("Presets"));Menu("Scan",140,()=>Show("Scan")); }
+             else if(page=="Presets")
+             {
+-                Label(content,"FM presets",new Vector2(0,60),new Vector2(650,40),21);
+-                Button(content,"BBC Radio 1",new Vector2(-210,0),new Vector2(120,28),()=>Tune("radio_1"));
+-                Button(content,"BBC Radio 2",new Vector2(0,0),new Vector2(120,28),()=>Tune("radio_2"));
+-                Button(content,"BBC Radio 3",new Vector2(210,0),new Vector2(120,28),()=>Tune("radio_3"));
++                Label(content,"FM presets",new Vector2(0,72),new Vector2(650,32),21);
++                Button(content,"BBC Radio 1",new Vector2(-230,10),new Vector2(210,72),()=>Tune("radio_1"));
++                Button(content,"BBC Radio 2",new Vector2(0,10),new Vector2(210,72),()=>Tune("radio_2"));
++                Button(content,"BBC Radio 3",new Vector2(230,10),new Vector2(210,72),()=>Tune("radio_3"));
+             }
+             else Label(content,page,new Vector2(0,25),new Vector2(650,45),24);
+-            if(page!="Home") Button(content,"Back",new Vector2(0,-65),new Vector2(95,28),()=>Show(Parent(page)));
++            if(page!="Home") Button(content,"Back",new Vector2(0,-65),new Vector2(140,64),()=>Show(Parent(page)));
+         }
+         private void Tune(string id) { GlanceState.SelectStation(id); Show("Playing"); }
+         private static string Name(string id)=>id=="radio_2"?"BBC Radio 2":id=="radio_3"?"BBC Radio 3":"BBC Radio 1";
+         private static string Parent(string page)=>page=="Presets"?"FM":page=="FM"?"Sources":page=="Sources"?"Media":"Home";
+-        private void Menu(string label,float x,UnityAction action)=>Button(content,label,new Vector2(x,10),new Vector2(140,40),action);
++        private void Menu(string label,float x,UnityAction action)=>Button(content,label,new Vector2(x,10),new Vector2(164,64),action);
+         private Transform Box(Transform parent,string name,Vector2 at,Vector2 size,Color color)
+         {
+             var go=new GameObject(name,typeof(RectTransform),typeof(Image));go.transform.SetParent(parent,false);

@@ -4,12 +4,36 @@ AI-assisted inspection and improvement of automotive touchscreen prototypes, bui
 
 The planned journey is **test an HMI → measure interaction friction → let Codex revise the UI → run a fresh test and climate regression → compare results**. OpenAI Decisions API will select actions from the currently visible controls; independent code will execute inputs and verify outcomes. This is an assisted, instrumented walkthrough, not a measurement of human distraction or regulatory compliance.
 
-## Current status
+## Working core
 
-- Unity HMI template runs locally in the Editor: Body Control, Climate, Cluster and ADAS scenes.
-- An Editor-only pointer driver performs real Input System mouse clicks and drags.
-- Repeatable E2E checks navigate to Climate and set driver temperature to 21°C while preserving passenger temperature. Two final-driver runs passed with zero console errors/warnings and restored input settings.
-- Decisions API integration, the synthetic radio task, scorer, results dashboard and automated Codex redesign loop remain planned.
+- OpenAI Decisions API (`gpt-6-luna`) selects visible HMI controls from screenshots and a neutral control inventory.
+- A real Unity Input System virtual mouse executes clicks/drags. An independent state checker verifies radio selection and driver/passenger temperatures.
+- Radio baseline: **3/3 successful, median 5 inputs**. Codex-revised UI: **4/4 successful, median 1 input**. Corrected screen counts include the final confirmation: **6 → 2**.
+- Climate regression passed after the UI change: driver **21°C**, passenger unchanged at **22°C**.
+- Codex generated a source proposal from the measured findings; review confirmed only UI presentation methods changed before applying and retesting it.
+- The local dashboard runs tests, replays genuine screenshots with input markers, displays measured results, and exposes the actual Codex diff. Failed exploratory runs remain visible.
+
+[59-second demo replay](docs/build/glance-demo.mp4) · [Measured evidence](docs/build/evidence/index.json) · [Codex diff](docs/build/redesign/ui.patch) · [Validation notes](docs/build/VALIDATION.md)
+
+The demo is a captioned replay assembled from genuine API-run screenshots, not a live screen recording. This is a small synthetic Unity HMI, not an arbitrary-interface testing service or a validated human-distraction study.
+
+## Run Glance
+
+Requires Unity **6000.6.3f1**, Unity CLI **1.0.0-beta.15**, Node **24+** (verified with 26.0.0), and an OpenAI project with Decisions access. No npm dependencies are required.
+
+1. Open `unity-hmi/` in Unity Hub; resolve its pinned packages.
+2. Open `Assets/Scenes/Main.unity` and press Play. Keep this Editor running and avoid manual input during automation.
+3. For live tests, put your own `OPENAI_API_KEY` in an ignored `.env.local` file, following `.env.example`. Never commit the key.
+4. From the repository root, run `npm start` and open **http://127.0.0.1:3210**.
+For an explicit offline demo, use `npm run replay`. It needs neither an API key nor a running Unity Editor, loads only archived evidence, and disables live execution.
+
+5. For live tests, use **Retest revised UI** or **Check climate regression**. The baseline button is disabled when the current source hash differs from the recorded baseline.
+
+The checked-in UI is the tested revised version. Baseline screenshots, source snapshots and results are retained under `docs/build/evidence/`; the baseline source is also `docs/build/redesign/before.cs`. To repeat baseline collection, stop Play, restore that source to the single UI file, refresh/recompile, restart Main, and run `npm run test:radio`. This changes the local checkout; restore the revised UI afterward. Version hashes prevent labelling the revised UI as a baseline.
+
+`npm run redesign` generates an isolated Codex source proposal from `findings.json` and the current Glance UI. This sends those two inputs to OpenAI Codex; use it only when you authorize that transfer. Review its retained `before.cs`/`after.cs`, then apply with `node runner/apply-revision.ts <redesign-run-id>`. The apply command rejects stale parents and changes outside `Show`/`Menu`. Refresh/recompile Unity and run fresh tests afterward. The CLI uses a structured source response because its tool host was unavailable during this build. Do not claim unattended redesign/application.
+
+Runs are serialized and bounded: 25 UI inputs, 40 Decisions calls, five minutes, and 200,000 reported tokens per run. These are local execution limits, not a guaranteed dollar cap; configure an appropriate Platform budget. API errors are retained as failures. Credentials stay in the coordinator and are stripped from Unity/Codex child-process environments. Local raw runs are ignored; `npm run export:evidence` exports screenshots/results and redacted traces.
 
 ## Repository layout
 
@@ -38,7 +62,7 @@ With Unity CLI installed, run from the repository root:
 unity open "$PWD/unity-hmi" --wait
 ```
 
-No API key is needed for the current Unity sample or pointer check. No secrets belong in version control. The future API integration is not configured by these steps.
+No API key is needed for the current Unity sample or pointer check. No secrets belong in version control. These sample-only steps do not launch the Decisions runner; use the Glance instructions above.
 
 ## Verify pointer input
 
@@ -56,4 +80,4 @@ See [pointer automation](docs/unity-hmi/POINTER-AUTOMATION.md), [Unity setup](do
 
 Unity supplies **Industry HMI Template 1.0.4**, including vehicle/cabin/traffic assets, scenes and template scripts. The download was verified against the catalog digest. Original notices are preserved in [TEMPLATE-LICENSE.md](unity-hmi/TEMPLATE-LICENSE.md), [TEMPLATE-README.md](unity-hmi/TEMPLATE-README.md), and [third-party notices](unity-hmi/TEMPLATE-ThirdPartyNotice.txt). The Unity Companion License and bundled third-party licences continue to apply; this repository does not relicense those materials.
 
-Glance additions made during the hackathon include the isolated project setup, pointer automation extension, E2E verification script, evidence and updated product/architecture planning. Codex helped diagnose input focus/device routing, implement the pointer driver, and verify UI navigation and climate adjustment. The architecture graphic describes the planned system; it does not establish that all components are implemented.
+Glance additions made during the hackathon include the synthetic radio UI, Decisions runner, locked task/state adapter, pointer automation, deterministic scoring, local dashboard, Codex UI revision, E2E verification, evidence and planning. Codex helped diagnose input focus/device routing, implement the pointer driver, and verify UI navigation and climate adjustment. The architecture graphic describes the planned system; it does not establish that all components are implemented.

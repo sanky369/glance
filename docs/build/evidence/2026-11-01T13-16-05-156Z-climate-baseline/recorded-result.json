@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-01T13-16-05-156Z-climate-baseline",
+  "taskId": "climate",
+  "variant": "baseline",
+  "model": "gpt-6-luna",
+  "uiHash": "034cbe50a3d5d476082d4045a176f8869f8f753c024bd5fbfad779b75e02ac0c",
+  "task": {
+    "instruction": "Set the driver cabin temperature to 21 degrees Celsius. Keep the passenger temperature unchanged.",
+    "field": "driverTemperature",
+    "expected": 21
+  },
+  "final": {
+    "stationId": "radio_1",
+    "driverTemperature": 22,
+    "passengerTemperature": 22,
+    "screenId": "Climate/HVAC",
+    "ready": true
+  },
+  "failure": "The operation was aborted due to timeout",
+  "elapsedMs": 84498,
+  "success": false,
+  "actions": 3,
+  "screensVisited": 2,
+  "backtracks": 0,
+  "smallTargets": 3,
+  "decisionsCalls": 3,
+  "apiLatencyMs": 23501,
+  "inputTokens": 4660,
+  "outputTokens": 0,
+  "threshold": "44 screenshot pixels; not a physical-size or safety threshold"
+}

@@ -1,0 +1,19 @@
+{
+  "baselineRun": "2026-11-01T13-07-02-767Z-radio-baseline",
+  "verifiedSuccess": true,
+  "metrics": {
+    "actions": 5,
+    "screensVisited": 5,
+    "backtracks": 0,
+    "smallTargets": 5
+  },
+  "observedPath": [
+    "Media",
+    "Sources",
+    "FM radio",
+    "Presets",
+    "BBC Radio 2"
+  ],
+  "request": "Reduce navigation depth and enlarge visible radio preset targets; keep climate reachable, all three stations and existing functionality. Do not modify state, task, adapter, scorer or input code.",
+  "limits": "Agent inspection assisted by visible-control inventory; no human distraction inference."
+}

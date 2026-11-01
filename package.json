@@ -1,0 +1,16 @@
+{
+  "name": "glance",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local dashboard/server.ts",
+    "test:radio": "node --env-file=.env.local runner/run.ts radio baseline",
+    "test:climate": "node --env-file=.env.local runner/run.ts climate regression",
+    "redesign": "node runner/redesign.ts",
+    "export:evidence": "node scripts/export_runs.ts",
+    "replay": "node dashboard/server.ts --replay"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

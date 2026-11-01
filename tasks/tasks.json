@@ -1,0 +1,15 @@
+{
+  "radio": {
+    "instruction": "Tune the radio to BBC Radio 2.",
+    "field": "stationId",
+    "expected": "radio_2"
+  },
+  "climate": {
+    "instruction": "Set the driver cabin temperature to 21 degrees Celsius. Keep the passenger temperature unchanged.",
+    "field": "driverTemperature",
+    "expected": 21,
+    "invariants": {
+      "passengerTemperature": 22
+    }
+  }
+}

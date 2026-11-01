@@ -2,7 +2,8 @@
 
 Updated 1 November 2026 · Decisions API revision of the original 31 October plan
 
-**Status:** this document specifies the next build. The Unity template is running in `unity-hmi/`; Pointer navigation and driver-temperature adjustment to 21°C are now verified (see `docs/unity-hmi/POINTER-AUTOMATION.md`). Decisions API integration, radio task and the full evaluation pipeline remain pending. See `docs/unity-hmi/SETUP.md` for verified setup evidence. The existing architecture PNG predates Decisions; the text architecture below supersedes its generic agent block.
+**Status:** the core native Unity/Decisions workflow is implemented and validated. Radio baseline passed 3/3 at 5 inputs; the reviewed Codex UI revision passed 4/4 at 1 input, and climate regression passed. The local dashboard, 59-second replay and public evidence are documented in `README.md` and `docs/build/VALIDATION.md`. This plan retains the original build design; the validation record distinguishes implemented scope, failures and reporting corrections. Hosted deployment and generalized HMI testing remain outside this build.
+
 
 Build Glance at the DevDay Community Hackathon in London on Sunday 1 November: an agent powered by **OpenAI Decisions API** tests a **synthetic automotive HMI**, Glance records interaction friction, Codex revises the HMI, and a fresh agent checks that the improvement worked without breaking climate control. **Preferred visual and HMI foundation:** Unity Industry’s new Automotive HMI Template (Unity 6.3+). **Must-work fallback:** the original HTML HMI, with the Unity demo displayed separately if feasible. The six-hour hackathon schedule and scientific claims remain unchanged.
 
